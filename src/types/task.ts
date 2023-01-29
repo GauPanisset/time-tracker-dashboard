@@ -1,6 +1,16 @@
 import type { Activity } from '@/types/activity'
 import type { Project } from '@/types/project'
-import type { Period, Sprint } from '@/types/sprint'
+import type {
+  Period,
+  SerializedPeriod,
+  SerializedSprint,
+  Sprint,
+} from '@/types/sprint'
+
+type SerializedTask = Omit<Task, 'period' | 'sprint'> & {
+  period: SerializedPeriod
+  sprint: SerializedSprint
+}
 
 type Task = {
   id: string
@@ -12,4 +22,4 @@ type Task = {
   sprint: Sprint
 }
 
-export type { Task }
+export type { SerializedTask, Task }

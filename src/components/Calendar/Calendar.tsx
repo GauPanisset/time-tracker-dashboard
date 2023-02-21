@@ -34,8 +34,9 @@ const Calendar: React.FunctionComponent<Props> = ({ tasks: rawTasks }) => {
   }
 
   return (
-    <div className="rounded-xl border border-light/40 bg-mid/10">
-      <div className="rounded-t-xl border-light/40 bg-mid p-2">
+    <div className="rounded-xl border border-light/40 bg-mid/10 shadow-lg">
+      <div className="flex h-14 items-center justify-between rounded-t-xl border-light/40 bg-mid px-4">
+        <p className="text-3xl font-bold text-dark">Tasks</p>
         <CalendarButtons onClick={handleClick} />
       </div>
       <div className="overflow-x-scroll">

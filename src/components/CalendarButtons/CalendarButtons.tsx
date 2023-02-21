@@ -8,7 +8,7 @@ const CalendarButtons: React.FunctionComponent<Props> = ({ onClick }) => {
   return (
     <div className="inline-flex rounded-md shadow-sm" role="group">
       <button
-        className="rounded-l-lg border border-light/40 bg-mid px-4 py-2 text-sm font-medium text-dark/90 hover:bg-mid/80 hover:text-dark"
+        className="rounded-l-lg border border-light/40 bg-dark px-4 py-2 text-sm font-medium text-light/90 hover:bg-dark/80 hover:text-light"
         name="days"
         onClick={() => onClick(GroupKey.Days)}
         type="button"
@@ -16,7 +16,7 @@ const CalendarButtons: React.FunctionComponent<Props> = ({ onClick }) => {
         Days
       </button>
       <button
-        className="border-y border-light/40 bg-mid px-4 py-2 text-sm font-medium text-dark/90 hover:bg-mid/80 hover:text-dark"
+        className="border-y border-light/40 bg-dark px-4 py-2 text-sm font-medium text-light/90 hover:bg-dark/80 hover:text-light"
         name="activities"
         onClick={() => onClick(GroupKey.Activities)}
         type="button"
@@ -24,7 +24,7 @@ const CalendarButtons: React.FunctionComponent<Props> = ({ onClick }) => {
         Activities
       </button>
       <button
-        className="rounded-r-md border border-light/40 bg-mid px-4 py-2 text-sm font-medium text-dark/90 hover:bg-mid/80 hover:text-dark"
+        className="rounded-r-md border border-light/40 bg-dark px-4 py-2 text-sm font-medium text-light/90 hover:bg-dark/80 hover:text-light"
         name="projects"
         onClick={() => onClick(GroupKey.Projects)}
         type="button"

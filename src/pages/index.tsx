@@ -14,9 +14,9 @@ const Home = () => {
   if (!data) return <div>Not data found...</div>
 
   return (
-    <>
+    <div className="max-w-lg">
       <Calendar tasks={data} />
-    </>
+    </div>
   )
 }
 

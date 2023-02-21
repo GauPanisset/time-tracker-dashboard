@@ -4,6 +4,8 @@ import type { NextApiRequest, NextApiResponse } from 'next'
 import { TaskService } from '@/services/task'
 import type { Task } from '@/types/task'
 
+// import tasks from './mockTasks.json'
+
 const taskService = new TaskService()
 
 const handler = async (req: NextApiRequest, res: NextApiResponse<Task[]>) => {

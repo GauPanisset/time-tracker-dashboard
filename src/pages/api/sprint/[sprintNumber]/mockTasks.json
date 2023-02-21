@@ -1,0 +1,3844 @@
+[
+  {
+    "id": "3610bcae-8f13-4be5-92a3-7d33a7e42ffb",
+    "activity": {
+      "id": "880164a4-1434-4884-a3b9-84c5cdc6962b",
+      "name": "Development"
+    },
+    "duration": 1.5,
+    "name": "Workday",
+    "period": {
+      "start": "2023-01-05T13:30:00.000Z",
+      "end": "2023-01-05T15:00:00.000Z"
+    },
+    "project": {
+      "id": "7b4ae151-bc28-417f-8811-da4d32abcbc7",
+      "name": "Workday integration",
+      "status": "In progress",
+      "storyPoints": 3
+    },
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "40073ee4-5a44-4bc8-8706-9ed84b0079e3",
+    "activity": {
+      "id": "991e59dd-151d-4139-8334-13d70a8f7ed9",
+      "name": "Break"
+    },
+    "duration": 1,
+    "name": "Lunch",
+    "period": {
+      "start": "2023-01-10T11:00:00.000Z",
+      "end": "2023-01-10T12:00:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "68531a3f-3403-475c-8c23-1b0f501b2ed4",
+    "activity": {
+      "id": "44e64e9b-d0bc-42bd-b3b4-45fbd4795b84",
+      "name": "Meeting"
+    },
+    "duration": 1.75,
+    "name": "Daily",
+    "period": {
+      "start": "2022-12-28T08:15:00.000Z",
+      "end": "2022-12-28T10:00:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "d6544039-574e-4ba9-a020-3dba82bb919a",
+    "activity": {
+      "id": "44e64e9b-d0bc-42bd-b3b4-45fbd4795b84",
+      "name": "Meeting"
+    },
+    "duration": 0.25,
+    "name": "Laetitia Figma",
+    "period": {
+      "start": "2023-01-06T09:45:00.000Z",
+      "end": "2023-01-06T10:00:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "4d26a20d-036e-4137-85c5-903aa085e192",
+    "activity": {
+      "id": "44e64e9b-d0bc-42bd-b3b4-45fbd4795b84",
+      "name": "Meeting"
+    },
+    "duration": 0.25,
+    "name": "Ahmed",
+    "period": {
+      "start": "2023-01-11T10:30:00.000Z",
+      "end": "2023-01-11T10:45:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "74cb9463-634a-4e69-b21f-9eff60627282",
+    "activity": {
+      "id": "44e64e9b-d0bc-42bd-b3b4-45fbd4795b84",
+      "name": "Meeting"
+    },
+    "duration": 0.75,
+    "name": "Nadège",
+    "period": {
+      "start": "2023-01-02T14:30:00.000Z",
+      "end": "2023-01-02T15:15:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "10a48ab3-6058-4a0e-bfc9-dea0772857a6",
+    "activity": {
+      "id": "a411fc4c-a601-413b-aefb-2433fcab6a00",
+      "name": "Fix"
+    },
+    "duration": 0.75,
+    "name": "Refactor updateProcessResults (double score)",
+    "period": {
+      "start": "2022-12-30T07:30:00.000Z",
+      "end": "2022-12-30T08:15:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "abed63db-9238-492f-95e8-55e76838ab41",
+    "activity": {
+      "id": "44e64e9b-d0bc-42bd-b3b4-45fbd4795b84",
+      "name": "Meeting"
+    },
+    "duration": 1,
+    "name": "Daily",
+    "period": {
+      "start": "2023-01-06T08:15:00.000Z",
+      "end": "2023-01-06T09:15:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "d27f732c-5437-49b1-95ed-94d65af85302",
+    "activity": {
+      "id": "991e59dd-151d-4139-8334-13d70a8f7ed9",
+      "name": "Break"
+    },
+    "duration": 1.25,
+    "name": "Lunch",
+    "period": {
+      "start": "2023-01-02T11:00:00.000Z",
+      "end": "2023-01-02T12:15:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "1ca7adf2-2155-4903-b9ce-754cfab9aaeb",
+    "activity": {
+      "id": "880164a4-1434-4884-a3b9-84c5cdc6962b",
+      "name": "Development"
+    },
+    "duration": 1.25,
+    "name": "Postman CI",
+    "period": {
+      "start": "2022-12-26T15:00:00.000Z",
+      "end": "2022-12-26T16:15:00.000Z"
+    },
+    "project": {
+      "id": "0cf3483f-7de4-4ed4-8aaa-b5b380453fe9",
+      "name": "Add Newman to CI",
+      "status": "Done",
+      "storyPoints": 3
+    },
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "456d0886-5f3d-4c23-87ca-2980bbe44ce9",
+    "activity": {
+      "id": "880164a4-1434-4884-a3b9-84c5cdc6962b",
+      "name": "Development"
+    },
+    "duration": 1,
+    "name": "Pré-visualisation campagne",
+    "period": {
+      "start": "2023-01-09T12:00:00.000Z",
+      "end": "2023-01-09T13:00:00.000Z"
+    },
+    "project": {
+      "id": "d4c9e3b0-a33c-4773-a9bf-74737b5dd481",
+      "name": "Add preview in campaign creation form",
+      "status": "Done",
+      "storyPoints": 2
+    },
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "2b02bc7d-289f-4734-ae4b-1aea016fa9e8",
+    "activity": {
+      "id": "880164a4-1434-4884-a3b9-84c5cdc6962b",
+      "name": "Development"
+    },
+    "duration": 0.5,
+    "name": "Prévisualisation création campagne",
+    "period": {
+      "start": "2023-01-11T10:00:00.000Z",
+      "end": "2023-01-11T10:30:00.000Z"
+    },
+    "project": {
+      "id": "d4c9e3b0-a33c-4773-a9bf-74737b5dd481",
+      "name": "Add preview in campaign creation form",
+      "status": "Done",
+      "storyPoints": 2
+    },
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "b78a1530-f2db-4b19-aaac-d45d7f67d841",
+    "activity": {
+      "id": "224ee851-14a2-4b44-86c4-b347e74de615",
+      "name": "Process"
+    },
+    "duration": 0.25,
+    "name": "Code review",
+    "period": {
+      "start": "2023-01-11T15:30:00.000Z",
+      "end": "2023-01-11T15:45:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "bd94e9bb-588e-4b73-8ba9-0068327da250",
+    "activity": {
+      "id": "880164a4-1434-4884-a3b9-84c5cdc6962b",
+      "name": "Development"
+    },
+    "duration": 1.5,
+    "name": "Pré-visualisation campagne",
+    "period": {
+      "start": "2023-01-10T12:00:00.000Z",
+      "end": "2023-01-10T13:30:00.000Z"
+    },
+    "project": {
+      "id": "d4c9e3b0-a33c-4773-a9bf-74737b5dd481",
+      "name": "Add preview in campaign creation form",
+      "status": "Done",
+      "storyPoints": 2
+    },
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "dd6a9792-d864-4995-ad66-9f57ee4aa02f",
+    "activity": {
+      "id": "a411fc4c-a601-413b-aefb-2433fcab6a00",
+      "name": "Fix"
+    },
+    "duration": 0.25,
+    "name": "Debug Talentsoft",
+    "period": {
+      "start": "2022-12-28T13:45:00.000Z",
+      "end": "2022-12-28T14:00:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "eb9c141c-b190-4455-b189-098aa59d61b9",
+    "activity": {
+      "id": "44e64e9b-d0bc-42bd-b3b4-45fbd4795b84",
+      "name": "Meeting"
+    },
+    "duration": 0.75,
+    "name": "Daily",
+    "period": {
+      "start": "2023-01-10T08:15:00.000Z",
+      "end": "2023-01-10T09:00:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "e419dc01-2d74-436b-b51c-bb71022c7066",
+    "activity": {
+      "id": "44e64e9b-d0bc-42bd-b3b4-45fbd4795b84",
+      "name": "Meeting"
+    },
+    "duration": 1,
+    "name": "Daily",
+    "period": {
+      "start": "2023-01-11T08:15:00.000Z",
+      "end": "2023-01-11T09:15:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "0158066d-f409-451d-8ce8-5c3f5a11fcc7",
+    "activity": {
+      "id": "44e64e9b-d0bc-42bd-b3b4-45fbd4795b84",
+      "name": "Meeting"
+    },
+    "duration": 0.5,
+    "name": "Nadège",
+    "period": {
+      "start": "2023-01-10T14:45:00.000Z",
+      "end": "2023-01-10T15:15:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "ebac75dc-ba6f-429b-8008-c65e4b11a347",
+    "activity": {
+      "id": "44e64e9b-d0bc-42bd-b3b4-45fbd4795b84",
+      "name": "Meeting"
+    },
+    "duration": 0.75,
+    "name": "Q4 OKR review",
+    "period": {
+      "start": "2023-01-09T09:00:00.000Z",
+      "end": "2023-01-09T09:45:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "0524ebf6-1bd4-4605-91d1-8fa0750250c3",
+    "activity": {
+      "id": "991e59dd-151d-4139-8334-13d70a8f7ed9",
+      "name": "Break"
+    },
+    "duration": 1.75,
+    "name": "Lunch",
+    "period": {
+      "start": "2022-12-28T11:15:00.000Z",
+      "end": "2022-12-28T13:00:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "27b79930-ec18-4b67-ac88-c142582c7355",
+    "activity": {
+      "id": "991e59dd-151d-4139-8334-13d70a8f7ed9",
+      "name": "Break"
+    },
+    "duration": 1.25,
+    "name": "Lunch",
+    "period": {
+      "start": "2022-12-30T11:30:00.000Z",
+      "end": "2022-12-30T12:45:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "c58ea283-f70a-46e7-b899-cc0558bfbf9c",
+    "activity": {
+      "id": "44e64e9b-d0bc-42bd-b3b4-45fbd4795b84",
+      "name": "Meeting"
+    },
+    "duration": 0.5,
+    "name": "Creation campagne",
+    "period": {
+      "start": "2023-01-05T13:00:00.000Z",
+      "end": "2023-01-05T13:30:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "57026a85-248f-44bd-a2ff-f30773fb6b68",
+    "activity": {
+      "id": "880164a4-1434-4884-a3b9-84c5cdc6962b",
+      "name": "Development"
+    },
+    "duration": 1,
+    "name": "Newrelic Devops",
+    "period": {
+      "start": "2022-12-27T15:45:00.000Z",
+      "end": "2022-12-27T16:45:00.000Z"
+    },
+    "project": {
+      "id": "b8624e75-e8ff-4ce8-bba8-c46f8d845073",
+      "name": "Setup NewRelic",
+      "status": "Done",
+      "storyPoints": 2
+    },
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "374bfbb3-a8e5-40d6-a0af-ed0f85054452",
+    "activity": {
+      "id": "880164a4-1434-4884-a3b9-84c5cdc6962b",
+      "name": "Development"
+    },
+    "duration": 1,
+    "name": "Auto Status Selection",
+    "period": {
+      "start": "2023-01-12T10:15:00.000Z",
+      "end": "2023-01-12T11:15:00.000Z"
+    },
+    "project": {
+      "id": "0e215773-ad9a-468f-be3a-57eca395e41f",
+      "name": "Add UI for auto status selection",
+      "status": "Done",
+      "storyPoints": 2
+    },
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "7b57afcf-d454-4067-a332-b738f6f1ffcb",
+    "activity": {
+      "id": "44e64e9b-d0bc-42bd-b3b4-45fbd4795b84",
+      "name": "Meeting"
+    },
+    "duration": 1.75,
+    "name": "Antoine",
+    "period": {
+      "start": "2022-12-29T15:30:00.000Z",
+      "end": "2022-12-29T17:15:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "545d9d94-dff5-45f2-a601-805aa72f53b1",
+    "activity": {
+      "id": "991e59dd-151d-4139-8334-13d70a8f7ed9",
+      "name": "Break"
+    },
+    "duration": 0.25,
+    "name": "Break",
+    "period": {
+      "start": "2022-12-27T16:45:00.000Z",
+      "end": "2022-12-27T17:00:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "89b5825b-b3a6-4c29-a7ef-6fbd51a0a3ea",
+    "activity": {
+      "id": "44e64e9b-d0bc-42bd-b3b4-45fbd4795b84",
+      "name": "Meeting"
+    },
+    "duration": 1.25,
+    "name": "Weekly tech",
+    "period": {
+      "start": "2023-01-06T14:00:00.000Z",
+      "end": "2023-01-06T15:15:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "e5eab0ff-4bfb-4d56-a76e-9333869634a5",
+    "activity": {
+      "id": "21085e24-ec50-4fcf-a334-0bab9ec60a60",
+      "name": "Documentation"
+    },
+    "duration": 0.25,
+    "name": "Figma",
+    "period": {
+      "start": "2023-01-11T13:45:00.000Z",
+      "end": "2023-01-11T14:00:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "2852be31-a812-4375-a2b8-4293372312f2",
+    "activity": {
+      "id": "44e64e9b-d0bc-42bd-b3b4-45fbd4795b84",
+      "name": "Meeting"
+    },
+    "duration": 0.75,
+    "name": "Co-création process",
+    "period": {
+      "start": "2023-01-11T09:15:00.000Z",
+      "end": "2023-01-11T10:00:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "4428212e-e03b-4311-8e4e-b09018977456",
+    "activity": {
+      "id": "224ee851-14a2-4b44-86c4-b347e74de615",
+      "name": "Process"
+    },
+    "duration": 0.5,
+    "name": "Code review",
+    "period": {
+      "start": "2023-01-04T12:45:00.000Z",
+      "end": "2023-01-04T13:15:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "f7c3bba3-16b2-485b-98a5-ae8532de424a",
+    "activity": {
+      "id": "44e64e9b-d0bc-42bd-b3b4-45fbd4795b84",
+      "name": "Meeting"
+    },
+    "duration": 0.5,
+    "name": "Abderrazag",
+    "period": {
+      "start": "2023-01-12T15:30:00.000Z",
+      "end": "2023-01-12T16:00:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "7f0b7877-a2e1-49d0-a003-22ba3d611517",
+    "activity": {
+      "id": "21085e24-ec50-4fcf-a334-0bab9ec60a60",
+      "name": "Documentation"
+    },
+    "duration": 0.25,
+    "name": "CR Workday",
+    "period": {
+      "start": "2023-01-04T10:30:00.000Z",
+      "end": "2023-01-04T10:45:00.000Z"
+    },
+    "project": {
+      "id": "7b4ae151-bc28-417f-8811-da4d32abcbc7",
+      "name": "Workday integration",
+      "status": "In progress",
+      "storyPoints": 3
+    },
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "a742f3cd-8296-43ab-be17-0a3da1f99f5e",
+    "activity": {
+      "id": "a411fc4c-a601-413b-aefb-2433fcab6a00",
+      "name": "Fix"
+    },
+    "duration": 0.75,
+    "name": "Replace AGRA / NUUK",
+    "period": {
+      "start": "2022-12-28T14:30:00.000Z",
+      "end": "2022-12-28T15:15:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "ffbee6ad-1460-464a-8e50-6ace081fedf8",
+    "activity": {
+      "id": "880164a4-1434-4884-a3b9-84c5cdc6962b",
+      "name": "Development"
+    },
+    "duration": 0.75,
+    "name": "Intégration d’application externe",
+    "period": {
+      "start": "2023-01-04T14:15:00.000Z",
+      "end": "2023-01-04T15:00:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "15921fa9-b8e9-48a3-8d56-7a7c2e0f5ede",
+    "activity": {
+      "id": "a411fc4c-a601-413b-aefb-2433fcab6a00",
+      "name": "Fix"
+    },
+    "duration": 0.5,
+    "name": "Nadege delete campaign",
+    "period": {
+      "start": "2023-01-03T13:45:00.000Z",
+      "end": "2023-01-03T14:15:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "425c53ff-ffa9-4525-9e81-cc4aa57a62e8",
+    "activity": {
+      "id": "991e59dd-151d-4139-8334-13d70a8f7ed9",
+      "name": "Break"
+    },
+    "duration": 0.5,
+    "name": "Break",
+    "period": {
+      "start": "2023-01-06T16:30:00.000Z",
+      "end": "2023-01-06T17:00:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "69db7b5b-0459-4704-b4b2-f1c0e9f47707",
+    "activity": {
+      "id": "880164a4-1434-4884-a3b9-84c5cdc6962b",
+      "name": "Development"
+    },
+    "duration": 1,
+    "name": "Auto Status Selection",
+    "period": {
+      "start": "2023-01-12T16:00:00.000Z",
+      "end": "2023-01-12T17:00:00.000Z"
+    },
+    "project": {
+      "id": "0e215773-ad9a-468f-be3a-57eca395e41f",
+      "name": "Add UI for auto status selection",
+      "status": "Done",
+      "storyPoints": 2
+    },
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "f32647d7-6aca-4d14-99df-5359481161eb",
+    "activity": {
+      "id": "a411fc4c-a601-413b-aefb-2433fcab6a00",
+      "name": "Fix"
+    },
+    "duration": 1.25,
+    "name": "Embranchement",
+    "period": {
+      "start": "2022-12-28T15:15:00.000Z",
+      "end": "2022-12-28T16:30:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "5c9beb63-493f-4908-9140-b9905457150f",
+    "activity": {
+      "id": "44e64e9b-d0bc-42bd-b3b4-45fbd4795b84",
+      "name": "Meeting"
+    },
+    "duration": 0.5,
+    "name": "Linda",
+    "period": {
+      "start": "2023-01-04T10:45:00.000Z",
+      "end": "2023-01-04T11:15:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "651efade-7bb9-437c-9d87-38070d7659bb",
+    "activity": {
+      "id": "224ee851-14a2-4b44-86c4-b347e74de615",
+      "name": "Process"
+    },
+    "duration": 1.25,
+    "name": "Deployment",
+    "period": {
+      "start": "2022-12-26T09:15:00.000Z",
+      "end": "2022-12-26T10:30:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "8fe3a8ce-79b2-4bbf-bb1c-2f5d566116e4",
+    "activity": {
+      "id": "a411fc4c-a601-413b-aefb-2433fcab6a00",
+      "name": "Fix"
+    },
+    "duration": 0.25,
+    "name": "Broken process",
+    "period": {
+      "start": "2023-01-10T08:00:00.000Z",
+      "end": "2023-01-10T08:15:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "be99fb91-bd54-4ebc-83fb-2065e6b4e62e",
+    "activity": {
+      "id": "21085e24-ec50-4fcf-a334-0bab9ec60a60",
+      "name": "Documentation"
+    },
+    "duration": 0.75,
+    "name": "Retention",
+    "period": {
+      "start": "2023-01-13T14:45:00.000Z",
+      "end": "2023-01-13T15:30:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "96c5a892-f495-4fe8-92aa-f45700d35d56",
+    "activity": {
+      "id": "880164a4-1434-4884-a3b9-84c5cdc6962b",
+      "name": "Development"
+    },
+    "duration": 1,
+    "name": "Game preview (tests)",
+    "period": {
+      "start": "2023-01-13T15:30:00.000Z",
+      "end": "2023-01-13T16:30:00.000Z"
+    },
+    "project": {
+      "id": "d4c9e3b0-a33c-4773-a9bf-74737b5dd481",
+      "name": "Add preview in campaign creation form",
+      "status": "Done",
+      "storyPoints": 2
+    },
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "db6a1d69-84c7-4e1c-898a-60407db0a535",
+    "activity": {
+      "id": "a411fc4c-a601-413b-aefb-2433fcab6a00",
+      "name": "Fix"
+    },
+    "duration": 0.5,
+    "name": "Double score",
+    "period": {
+      "start": "2022-12-29T09:00:00.000Z",
+      "end": "2022-12-29T09:30:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "463123d1-757a-44ab-8428-f1fa0149bb0a",
+    "activity": {
+      "id": "44e64e9b-d0bc-42bd-b3b4-45fbd4795b84",
+      "name": "Meeting"
+    },
+    "duration": 0.75,
+    "name": "Daily",
+    "period": {
+      "start": "2023-01-13T08:15:00.000Z",
+      "end": "2023-01-13T09:00:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "c294b840-3fe4-4bfd-bde4-b53690ce76a4",
+    "activity": {
+      "id": "44e64e9b-d0bc-42bd-b3b4-45fbd4795b84",
+      "name": "Meeting"
+    },
+    "duration": 0.25,
+    "name": "Antoine",
+    "period": {
+      "start": "2023-01-02T09:15:00.000Z",
+      "end": "2023-01-02T09:30:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "75276ae3-7729-4512-8a78-6f5841b77c66",
+    "activity": {
+      "id": "44e64e9b-d0bc-42bd-b3b4-45fbd4795b84",
+      "name": "Meeting"
+    },
+    "duration": 0.5,
+    "name": "Cadrage interne Cornerstone",
+    "period": {
+      "start": "2022-12-28T10:00:00.000Z",
+      "end": "2022-12-28T10:30:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "f72d900b-902f-45a0-8505-1126f17134fc",
+    "activity": {
+      "id": "a411fc4c-a601-413b-aefb-2433fcab6a00",
+      "name": "Fix"
+    },
+    "duration": 0.25,
+    "name": "Auto status selection",
+    "period": {
+      "start": "2023-01-11T12:45:00.000Z",
+      "end": "2023-01-11T13:00:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "c5c480b7-dcd9-4d05-b9ff-7a5b4b91c1f4",
+    "activity": {
+      "id": "44e64e9b-d0bc-42bd-b3b4-45fbd4795b84",
+      "name": "Meeting"
+    },
+    "duration": 0.75,
+    "name": "Daily",
+    "period": {
+      "start": "2023-01-02T08:15:00.000Z",
+      "end": "2023-01-02T09:00:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "a1ce2277-52ae-4056-bf7c-1340070ac78e",
+    "activity": {
+      "id": "a411fc4c-a601-413b-aefb-2433fcab6a00",
+      "name": "Fix"
+    },
+    "duration": 0.25,
+    "name": "Code smell predefined campaigns",
+    "period": {
+      "start": "2023-01-02T09:00:00.000Z",
+      "end": "2023-01-02T09:15:00.000Z"
+    },
+    "project": {
+      "id": "d4c9e3b0-a33c-4773-a9bf-74737b5dd481",
+      "name": "Add preview in campaign creation form",
+      "status": "Done",
+      "storyPoints": 2
+    },
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "01c4eada-4b09-4735-ae1a-83f5ae0af1ce",
+    "activity": {
+      "id": "224ee851-14a2-4b44-86c4-b347e74de615",
+      "name": "Process"
+    },
+    "duration": 0.25,
+    "name": "Code review",
+    "period": {
+      "start": "2023-01-12T08:00:00.000Z",
+      "end": "2023-01-12T08:15:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "18a46ed9-8c0d-4fe7-a7d2-af69d03f6038",
+    "activity": {
+      "id": "a411fc4c-a601-413b-aefb-2433fcab6a00",
+      "name": "Fix"
+    },
+    "duration": 0.75,
+    "name": "Picard Intuition",
+    "period": {
+      "start": "2022-12-27T14:30:00.000Z",
+      "end": "2022-12-27T15:15:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "4e01d87f-e4ac-4e78-af32-1ba34be206e2",
+    "activity": {
+      "id": "224ee851-14a2-4b44-86c4-b347e74de615",
+      "name": "Process"
+    },
+    "duration": 0.5,
+    "name": "Code review",
+    "period": {
+      "start": "2023-01-09T07:45:00.000Z",
+      "end": "2023-01-09T08:15:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "b6ab0882-183a-48a7-9ea2-74b0c21a9184",
+    "activity": {
+      "id": "a411fc4c-a601-413b-aefb-2433fcab6a00",
+      "name": "Fix"
+    },
+    "duration": 0.25,
+    "name": "Nadege delete campaign",
+    "period": {
+      "start": "2023-01-03T17:00:00.000Z",
+      "end": "2023-01-03T17:15:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "c4a8896e-433d-4ac0-b281-f82bcd9ddc54",
+    "activity": {
+      "id": "44e64e9b-d0bc-42bd-b3b4-45fbd4795b84",
+      "name": "Meeting"
+    },
+    "duration": 1,
+    "name": "Daily",
+    "period": {
+      "start": "2022-12-26T08:15:00.000Z",
+      "end": "2022-12-26T09:15:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "ed3e4017-65c5-49b0-8145-3a817fb3f5de",
+    "activity": {
+      "id": "880164a4-1434-4884-a3b9-84c5cdc6962b",
+      "name": "Development"
+    },
+    "duration": 0.75,
+    "name": "Game preview",
+    "period": {
+      "start": "2023-01-13T10:15:00.000Z",
+      "end": "2023-01-13T11:00:00.000Z"
+    },
+    "project": {
+      "id": "d4c9e3b0-a33c-4773-a9bf-74737b5dd481",
+      "name": "Add preview in campaign creation form",
+      "status": "Done",
+      "storyPoints": 2
+    },
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "caa91e35-f26e-4157-8ba7-c3121764e1f8",
+    "activity": {
+      "id": "44e64e9b-d0bc-42bd-b3b4-45fbd4795b84",
+      "name": "Meeting"
+    },
+    "duration": 1.5,
+    "name": "Retrospective",
+    "period": {
+      "start": "2022-12-26T10:30:00.000Z",
+      "end": "2022-12-26T12:00:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "d1932a62-b98a-4cc0-b4e2-e717ff7e0755",
+    "activity": {
+      "id": "880164a4-1434-4884-a3b9-84c5cdc6962b",
+      "name": "Development"
+    },
+    "duration": 0.75,
+    "name": "Auto Status Selection",
+    "period": {
+      "start": "2023-01-12T12:15:00.000Z",
+      "end": "2023-01-12T13:00:00.000Z"
+    },
+    "project": {
+      "id": "0e215773-ad9a-468f-be3a-57eca395e41f",
+      "name": "Add UI for auto status selection",
+      "status": "Done",
+      "storyPoints": 2
+    },
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "eef55ea6-7f00-4195-938e-ab7aa353e07f",
+    "activity": {
+      "id": "991e59dd-151d-4139-8334-13d70a8f7ed9",
+      "name": "Break"
+    },
+    "duration": 1,
+    "name": "Lunch",
+    "period": {
+      "start": "2023-01-12T11:15:00.000Z",
+      "end": "2023-01-12T12:15:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "dcfb8158-ece9-455b-a6a8-d3d31a19b8d7",
+    "activity": {
+      "id": "a411fc4c-a601-413b-aefb-2433fcab6a00",
+      "name": "Fix"
+    },
+    "duration": 0.25,
+    "name": "Create pdf",
+    "period": {
+      "start": "2023-01-06T16:00:00.000Z",
+      "end": "2023-01-06T16:15:00.000Z"
+    },
+    "project": {
+      "id": "d7785c95-0c6c-49db-9612-eea5208a07c1",
+      "name": "Create PDF optimization",
+      "status": "Done",
+      "storyPoints": 5
+    },
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "9b23d3c1-b4a0-414e-b63d-945a9c7d967d",
+    "activity": {
+      "id": "880164a4-1434-4884-a3b9-84c5cdc6962b",
+      "name": "Development"
+    },
+    "duration": 0.5,
+    "name": "Pré-visualisation campagne",
+    "period": {
+      "start": "2023-01-09T17:45:00.000Z",
+      "end": "2023-01-09T18:15:00.000Z"
+    },
+    "project": {
+      "id": "d4c9e3b0-a33c-4773-a9bf-74737b5dd481",
+      "name": "Add preview in campaign creation form",
+      "status": "Done",
+      "storyPoints": 2
+    },
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "1d4e58a9-978e-42a0-adb0-8b8a2f311520",
+    "activity": {
+      "id": "224ee851-14a2-4b44-86c4-b347e74de615",
+      "name": "Process"
+    },
+    "duration": 0.25,
+    "name": "Code review",
+    "period": {
+      "start": "2023-01-13T08:00:00.000Z",
+      "end": "2023-01-13T08:15:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "ed59b373-84aa-4805-a5a7-62aca99a127f",
+    "activity": {
+      "id": "21085e24-ec50-4fcf-a334-0bab9ec60a60",
+      "name": "Documentation"
+    },
+    "duration": 1.25,
+    "name": "Dates/Status",
+    "period": {
+      "start": "2023-01-06T12:45:00.000Z",
+      "end": "2023-01-06T14:00:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "33aac047-8cd4-4968-86d7-0b918abd19b1",
+    "activity": {
+      "id": "21085e24-ec50-4fcf-a334-0bab9ec60a60",
+      "name": "Documentation"
+    },
+    "duration": 0.75,
+    "name": "Dates/Status",
+    "period": {
+      "start": "2023-01-06T15:15:00.000Z",
+      "end": "2023-01-06T16:00:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "b67a035d-3bd5-4946-a799-3c51b4b03836",
+    "activity": {
+      "id": "224ee851-14a2-4b44-86c4-b347e74de615",
+      "name": "Process"
+    },
+    "duration": 0.5,
+    "name": "Code review",
+    "period": {
+      "start": "2022-12-27T15:15:00.000Z",
+      "end": "2022-12-27T15:45:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "5d2d3fbb-bd7f-45d7-92a8-27cc50bdb02b",
+    "activity": {
+      "id": "880164a4-1434-4884-a3b9-84c5cdc6962b",
+      "name": "Development"
+    },
+    "duration": 1.75,
+    "name": "Improve pdf",
+    "period": {
+      "start": "2023-01-02T15:15:00.000Z",
+      "end": "2023-01-02T17:00:00.000Z"
+    },
+    "project": {
+      "id": "d7785c95-0c6c-49db-9612-eea5208a07c1",
+      "name": "Create PDF optimization",
+      "status": "Done",
+      "storyPoints": 5
+    },
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "78658dff-3785-43ab-8272-091913a0ed7e",
+    "activity": {
+      "id": "991e59dd-151d-4139-8334-13d70a8f7ed9",
+      "name": "Break"
+    },
+    "duration": 1,
+    "name": "Lunch",
+    "period": {
+      "start": "2023-01-05T11:00:00.000Z",
+      "end": "2023-01-05T12:00:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "8b06dd3b-57ed-4ca4-8681-4e78bf0dc428",
+    "activity": {
+      "id": "880164a4-1434-4884-a3b9-84c5cdc6962b",
+      "name": "Development"
+    },
+    "duration": 1.75,
+    "name": "Creation de pdf",
+    "period": {
+      "start": "2023-01-05T09:15:00.000Z",
+      "end": "2023-01-05T11:00:00.000Z"
+    },
+    "project": {
+      "id": "d7785c95-0c6c-49db-9612-eea5208a07c1",
+      "name": "Create PDF optimization",
+      "status": "Done",
+      "storyPoints": 5
+    },
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "6bd7d138-8112-4147-81ca-1e98eea2f571",
+    "activity": {
+      "id": "21085e24-ec50-4fcf-a334-0bab9ec60a60",
+      "name": "Documentation"
+    },
+    "duration": 0.75,
+    "name": "Postman doc",
+    "period": {
+      "start": "2022-12-27T17:00:00.000Z",
+      "end": "2022-12-27T17:45:00.000Z"
+    },
+    "project": {
+      "id": "0cf3483f-7de4-4ed4-8aaa-b5b380453fe9",
+      "name": "Add Newman to CI",
+      "status": "Done",
+      "storyPoints": 3
+    },
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "c73aa626-01c1-48d1-ac8f-92680769d6ad",
+    "activity": {
+      "id": "880164a4-1434-4884-a3b9-84c5cdc6962b",
+      "name": "Development"
+    },
+    "duration": 1.25,
+    "name": "Improve pdf",
+    "period": {
+      "start": "2023-01-02T09:45:00.000Z",
+      "end": "2023-01-02T11:00:00.000Z"
+    },
+    "project": {
+      "id": "d7785c95-0c6c-49db-9612-eea5208a07c1",
+      "name": "Create PDF optimization",
+      "status": "Done",
+      "storyPoints": 5
+    },
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "13a0c456-1db4-402b-8e09-50b1792c0bd2",
+    "activity": {
+      "id": "a411fc4c-a601-413b-aefb-2433fcab6a00",
+      "name": "Fix"
+    },
+    "duration": 0.5,
+    "name": "Create campaign",
+    "period": {
+      "start": "2023-01-11T14:00:00.000Z",
+      "end": "2023-01-11T14:30:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "357cc960-8217-4cc6-9958-713c6a9ed441",
+    "activity": {
+      "id": "880164a4-1434-4884-a3b9-84c5cdc6962b",
+      "name": "Development"
+    },
+    "duration": 1.25,
+    "name": "Pré-visualisation campagne",
+    "period": {
+      "start": "2023-01-09T10:00:00.000Z",
+      "end": "2023-01-09T11:15:00.000Z"
+    },
+    "project": {
+      "id": "d4c9e3b0-a33c-4773-a9bf-74737b5dd481",
+      "name": "Add preview in campaign creation form",
+      "status": "Done",
+      "storyPoints": 2
+    },
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "4a1b01f3-06ef-41f5-a504-1bfb5b8350d3",
+    "activity": {
+      "id": "224ee851-14a2-4b44-86c4-b347e74de615",
+      "name": "Process"
+    },
+    "duration": 0.25,
+    "name": "Code review",
+    "period": {
+      "start": "2022-12-28T14:15:00.000Z",
+      "end": "2022-12-28T14:30:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "02517e1d-838e-45cb-a429-ac45ce341130",
+    "activity": {
+      "id": "a411fc4c-a601-413b-aefb-2433fcab6a00",
+      "name": "Fix"
+    },
+    "duration": 0.5,
+    "name": "Nadege delete campaign",
+    "period": {
+      "start": "2023-01-04T10:00:00.000Z",
+      "end": "2023-01-04T10:30:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "3fcae790-2f46-43f1-bd6f-82a8883b9617",
+    "activity": {
+      "id": "44e64e9b-d0bc-42bd-b3b4-45fbd4795b84",
+      "name": "Meeting"
+    },
+    "duration": 0.5,
+    "name": "Dashboard engineering",
+    "period": {
+      "start": "2023-01-13T09:00:00.000Z",
+      "end": "2023-01-13T09:30:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "c78291d0-1214-4341-8d41-7af2346b02b0",
+    "activity": {
+      "id": "44e64e9b-d0bc-42bd-b3b4-45fbd4795b84",
+      "name": "Meeting"
+    },
+    "duration": 0.75,
+    "name": "Daily",
+    "period": {
+      "start": "2023-01-04T08:15:00.000Z",
+      "end": "2023-01-04T09:00:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "820fe1a3-27d1-42b2-b8ea-d46219a4f233",
+    "activity": {
+      "id": "44e64e9b-d0bc-42bd-b3b4-45fbd4795b84",
+      "name": "Meeting"
+    },
+    "duration": 0.5,
+    "name": "Antoine",
+    "period": {
+      "start": "2023-01-13T16:30:00.000Z",
+      "end": "2023-01-13T17:00:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "fb6d1fa7-f7dc-4a5e-a58d-6829127e6089",
+    "activity": {
+      "id": "21085e24-ec50-4fcf-a334-0bab9ec60a60",
+      "name": "Documentation"
+    },
+    "duration": 0.5,
+    "name": "CR Workday",
+    "period": {
+      "start": "2023-01-04T12:15:00.000Z",
+      "end": "2023-01-04T12:45:00.000Z"
+    },
+    "project": {
+      "id": "7b4ae151-bc28-417f-8811-da4d32abcbc7",
+      "name": "Workday integration",
+      "status": "In progress",
+      "storyPoints": 3
+    },
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "84ac312d-f1f3-416c-8bbd-729c8af1084f",
+    "activity": {
+      "id": "44e64e9b-d0bc-42bd-b3b4-45fbd4795b84",
+      "name": "Meeting"
+    },
+    "duration": 0.75,
+    "name": "Antoine",
+    "period": {
+      "start": "2023-01-09T15:00:00.000Z",
+      "end": "2023-01-09T15:45:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "258a88cf-87a3-45fe-8d52-a43f91f72cd7",
+    "activity": {
+      "id": "44e64e9b-d0bc-42bd-b3b4-45fbd4795b84",
+      "name": "Meeting"
+    },
+    "duration": 0.75,
+    "name": "Laetitia",
+    "period": {
+      "start": "2023-01-09T13:00:00.000Z",
+      "end": "2023-01-09T13:45:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "63ac7e95-a82b-4829-b899-9583592884aa",
+    "activity": {
+      "id": "a411fc4c-a601-413b-aefb-2433fcab6a00",
+      "name": "Fix"
+    },
+    "duration": 0.75,
+    "name": "Create campaign",
+    "period": {
+      "start": "2023-01-11T13:00:00.000Z",
+      "end": "2023-01-11T13:45:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "ff291296-5e48-405f-aec6-2c8f6fbd2f99",
+    "activity": {
+      "id": "44e64e9b-d0bc-42bd-b3b4-45fbd4795b84",
+      "name": "Meeting"
+    },
+    "duration": 0.75,
+    "name": "Weekly tech",
+    "period": {
+      "start": "2023-01-13T14:00:00.000Z",
+      "end": "2023-01-13T14:45:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "18aae9fd-5c3f-4cdf-9b4c-579f3f4121ba",
+    "activity": {
+      "id": "a411fc4c-a601-413b-aefb-2433fcab6a00",
+      "name": "Fix"
+    },
+    "duration": 0.75,
+    "name": "Double score",
+    "period": {
+      "start": "2022-12-29T13:45:00.000Z",
+      "end": "2022-12-29T14:30:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "2ea76284-03ea-45bf-a623-6e6a049d1072",
+    "activity": {
+      "id": "991e59dd-151d-4139-8334-13d70a8f7ed9",
+      "name": "Break"
+    },
+    "duration": 1.25,
+    "name": "Lunch",
+    "period": {
+      "start": "2023-01-03T11:15:00.000Z",
+      "end": "2023-01-03T12:30:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "45db701f-94d8-409f-b907-eb443dc2da27",
+    "activity": {
+      "id": "991e59dd-151d-4139-8334-13d70a8f7ed9",
+      "name": "Break"
+    },
+    "duration": 0.75,
+    "name": "Lunch",
+    "period": {
+      "start": "2023-01-09T11:15:00.000Z",
+      "end": "2023-01-09T12:00:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "287c8325-e0d7-4a47-95f2-fdebfa453c87",
+    "activity": {
+      "id": "44e64e9b-d0bc-42bd-b3b4-45fbd4795b84",
+      "name": "Meeting"
+    },
+    "duration": 0.5,
+    "name": "Workday",
+    "period": {
+      "start": "2023-01-04T09:00:00.000Z",
+      "end": "2023-01-04T09:30:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "549a4c5e-b82b-45e1-a532-e44f71d69f1f",
+    "activity": {
+      "id": "880164a4-1434-4884-a3b9-84c5cdc6962b",
+      "name": "Development"
+    },
+    "duration": 1.25,
+    "name": "Improve pdf",
+    "period": {
+      "start": "2023-01-03T12:30:00.000Z",
+      "end": "2023-01-03T13:45:00.000Z"
+    },
+    "project": {
+      "id": "d7785c95-0c6c-49db-9612-eea5208a07c1",
+      "name": "Create PDF optimization",
+      "status": "Done",
+      "storyPoints": 5
+    },
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "9f009f7f-ac58-4916-8ff3-886f2e68f078",
+    "activity": {
+      "id": "44e64e9b-d0bc-42bd-b3b4-45fbd4795b84",
+      "name": "Meeting"
+    },
+    "duration": 0.75,
+    "name": "Antoine",
+    "period": {
+      "start": "2023-01-04T15:30:00.000Z",
+      "end": "2023-01-04T16:15:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "25cbe30d-5997-4b3b-b66f-d4dfa6cdbfc8",
+    "activity": {
+      "id": "a411fc4c-a601-413b-aefb-2433fcab6a00",
+      "name": "Fix"
+    },
+    "duration": 1,
+    "name": "Refactor updateProcessResults (double score)",
+    "period": {
+      "start": "2022-12-30T12:45:00.000Z",
+      "end": "2022-12-30T13:45:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "6c2ca1eb-594d-4116-b803-fa8fa6c1d6a1",
+    "activity": {
+      "id": "991e59dd-151d-4139-8334-13d70a8f7ed9",
+      "name": "Break"
+    },
+    "duration": 0.25,
+    "name": "Break",
+    "period": {
+      "start": "2023-01-12T10:00:00.000Z",
+      "end": "2023-01-12T10:15:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "fec1d70f-e9fa-472e-a998-6d5eaead81c3",
+    "activity": {
+      "id": "224ee851-14a2-4b44-86c4-b347e74de615",
+      "name": "Process"
+    },
+    "duration": 0.25,
+    "name": "Credentials Neobrain CCCA-BTP",
+    "period": {
+      "start": "2023-01-02T09:30:00.000Z",
+      "end": "2023-01-02T09:45:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "4868b054-e042-4e1f-80dd-b042695b5c8c",
+    "activity": {
+      "id": "991e59dd-151d-4139-8334-13d70a8f7ed9",
+      "name": "Break"
+    },
+    "duration": 1.75,
+    "name": "Lunch",
+    "period": {
+      "start": "2022-12-26T12:00:00.000Z",
+      "end": "2022-12-26T13:45:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "1c2aed06-8542-4583-925a-455ed44b8cc7",
+    "activity": {
+      "id": "a411fc4c-a601-413b-aefb-2433fcab6a00",
+      "name": "Fix"
+    },
+    "duration": 1.25,
+    "name": "Create pdf",
+    "period": {
+      "start": "2023-01-11T10:45:00.000Z",
+      "end": "2023-01-11T12:00:00.000Z"
+    },
+    "project": {
+      "id": "d7785c95-0c6c-49db-9612-eea5208a07c1",
+      "name": "Create PDF optimization",
+      "status": "Done",
+      "storyPoints": 5
+    },
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "bdbfba4f-da7a-4577-862b-b10b0e32d08d",
+    "activity": {
+      "id": "880164a4-1434-4884-a3b9-84c5cdc6962b",
+      "name": "Development"
+    },
+    "duration": 0.5,
+    "name": "Intégration d’application externe",
+    "period": {
+      "start": "2023-01-04T17:30:00.000Z",
+      "end": "2023-01-04T18:00:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "ce7fbb01-89eb-4af4-8edf-254aabb7088d",
+    "activity": {
+      "id": "224ee851-14a2-4b44-86c4-b347e74de615",
+      "name": "Process"
+    },
+    "duration": 0.5,
+    "name": "Code review",
+    "period": {
+      "start": "2023-01-13T13:00:00.000Z",
+      "end": "2023-01-13T13:30:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "2f9f6fbf-5262-46f9-8d99-041cfc7fff1b",
+    "activity": {
+      "id": "a411fc4c-a601-413b-aefb-2433fcab6a00",
+      "name": "Fix"
+    },
+    "duration": 0.5,
+    "name": "Create campaign",
+    "period": {
+      "start": "2023-01-13T11:00:00.000Z",
+      "end": "2023-01-13T11:30:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "48b5b1de-116b-4faf-a607-e2c486cb197c",
+    "activity": {
+      "id": "880164a4-1434-4884-a3b9-84c5cdc6962b",
+      "name": "Development"
+    },
+    "duration": 0.5,
+    "name": "Workday",
+    "period": {
+      "start": "2023-01-04T13:15:00.000Z",
+      "end": "2023-01-04T13:45:00.000Z"
+    },
+    "project": {
+      "id": "7b4ae151-bc28-417f-8811-da4d32abcbc7",
+      "name": "Workday integration",
+      "status": "In progress",
+      "storyPoints": 3
+    },
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "b49e0db6-bb4d-4d2d-9d91-38e98b3d2d43",
+    "activity": {
+      "id": "44e64e9b-d0bc-42bd-b3b4-45fbd4795b84",
+      "name": "Meeting"
+    },
+    "duration": 0.75,
+    "name": "Daily",
+    "period": {
+      "start": "2022-12-29T08:15:00.000Z",
+      "end": "2022-12-29T09:00:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "e249f002-fd37-49f6-a34e-b42b4abf1a41",
+    "activity": {
+      "id": "991e59dd-151d-4139-8334-13d70a8f7ed9",
+      "name": "Break"
+    },
+    "duration": 0.5,
+    "name": "Break",
+    "period": {
+      "start": "2023-01-09T17:15:00.000Z",
+      "end": "2023-01-09T17:45:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "685b72d8-ff1e-45aa-a0ba-8232aa091f44",
+    "activity": {
+      "id": "880164a4-1434-4884-a3b9-84c5cdc6962b",
+      "name": "Development"
+    },
+    "duration": 0.5,
+    "name": "Pré-visualisation campagne",
+    "period": {
+      "start": "2023-01-10T14:15:00.000Z",
+      "end": "2023-01-10T14:45:00.000Z"
+    },
+    "project": {
+      "id": "d4c9e3b0-a33c-4773-a9bf-74737b5dd481",
+      "name": "Add preview in campaign creation form",
+      "status": "Done",
+      "storyPoints": 2
+    },
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "63f711aa-b1ed-48dd-a48d-ba0572572062",
+    "activity": {
+      "id": "224ee851-14a2-4b44-86c4-b347e74de615",
+      "name": "Process"
+    },
+    "duration": 0.25,
+    "name": "Code review",
+    "period": {
+      "start": "2022-12-29T08:00:00.000Z",
+      "end": "2022-12-29T08:15:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "e52020ad-8e78-462a-8e8e-849cfc670c46",
+    "activity": {
+      "id": "224ee851-14a2-4b44-86c4-b347e74de615",
+      "name": "Process"
+    },
+    "duration": 0.5,
+    "name": "Deployement",
+    "period": {
+      "start": "2022-12-26T13:45:00.000Z",
+      "end": "2022-12-26T14:15:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "0c910830-2dc6-471e-a4df-65220a46113f",
+    "activity": {
+      "id": "44e64e9b-d0bc-42bd-b3b4-45fbd4795b84",
+      "name": "Meeting"
+    },
+    "duration": 0.25,
+    "name": "Antoine",
+    "period": {
+      "start": "2023-01-09T09:45:00.000Z",
+      "end": "2023-01-09T10:00:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "8f132bd9-b911-4bcc-84d2-599ec7684c11",
+    "activity": {
+      "id": "a411fc4c-a601-413b-aefb-2433fcab6a00",
+      "name": "Fix"
+    },
+    "duration": 2.25,
+    "name": "Refactor updateProcessResults (double score)",
+    "period": {
+      "start": "2022-12-30T09:15:00.000Z",
+      "end": "2022-12-30T11:30:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "eddd17f3-d9a8-4e63-9869-3a323595f987",
+    "activity": {
+      "id": "44e64e9b-d0bc-42bd-b3b4-45fbd4795b84",
+      "name": "Meeting"
+    },
+    "duration": 0.75,
+    "name": "Daily",
+    "period": {
+      "start": "2023-01-09T08:15:00.000Z",
+      "end": "2023-01-09T09:00:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "0adc1a54-034b-4694-8df6-f52f4a59ed52",
+    "activity": {
+      "id": "880164a4-1434-4884-a3b9-84c5cdc6962b",
+      "name": "Development"
+    },
+    "duration": 1.75,
+    "name": "Pré-visualisation campagne",
+    "period": {
+      "start": "2023-01-10T15:30:00.000Z",
+      "end": "2023-01-10T17:15:00.000Z"
+    },
+    "project": {
+      "id": "d4c9e3b0-a33c-4773-a9bf-74737b5dd481",
+      "name": "Add preview in campaign creation form",
+      "status": "Done",
+      "storyPoints": 2
+    },
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "33f0caff-668e-429c-8a2f-c2defc1f6d8a",
+    "activity": {
+      "id": "21085e24-ec50-4fcf-a334-0bab9ec60a60",
+      "name": "Documentation"
+    },
+    "duration": 0.5,
+    "name": "Figma",
+    "period": {
+      "start": "2023-01-09T13:45:00.000Z",
+      "end": "2023-01-09T14:15:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "0b9b9fc7-9d1d-43e7-a914-2d4c7de742cc",
+    "activity": {
+      "id": "92338a05-6699-40d7-9f7e-7643fe494193",
+      "name": "Formation"
+    },
+    "duration": 0.75,
+    "name": "OpenAI",
+    "period": {
+      "start": "2022-12-30T15:00:00.000Z",
+      "end": "2022-12-30T15:45:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "4a1ed169-a893-4eca-8857-b876bf815dee",
+    "activity": {
+      "id": "44e64e9b-d0bc-42bd-b3b4-45fbd4795b84",
+      "name": "Meeting"
+    },
+    "duration": 1,
+    "name": "Daily",
+    "period": {
+      "start": "2023-01-12T08:15:00.000Z",
+      "end": "2023-01-12T09:15:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "4c60329d-0197-433e-9282-4626d0e8f136",
+    "activity": {
+      "id": "a411fc4c-a601-413b-aefb-2433fcab6a00",
+      "name": "Fix"
+    },
+    "duration": 0.75,
+    "name": "Récupération campagne",
+    "period": {
+      "start": "2023-01-09T14:15:00.000Z",
+      "end": "2023-01-09T15:00:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "15cabbdd-62dc-4bf0-bb0b-2fb9d0e4170f",
+    "activity": {
+      "id": "224ee851-14a2-4b44-86c4-b347e74de615",
+      "name": "Process"
+    },
+    "duration": 0.5,
+    "name": "Code review",
+    "period": {
+      "start": "2023-01-13T09:30:00.000Z",
+      "end": "2023-01-13T10:00:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "53276f4f-8c87-4850-b699-676c9a7092e3",
+    "activity": {
+      "id": "224ee851-14a2-4b44-86c4-b347e74de615",
+      "name": "Process"
+    },
+    "duration": 0.25,
+    "name": "Code review",
+    "period": {
+      "start": "2023-01-05T09:00:00.000Z",
+      "end": "2023-01-05T09:15:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "80a14684-f7a3-4279-b6ef-09e7be311b88",
+    "activity": {
+      "id": "21085e24-ec50-4fcf-a334-0bab9ec60a60",
+      "name": "Documentation"
+    },
+    "duration": 0.5,
+    "name": "Dates/Status",
+    "period": {
+      "start": "2023-01-06T09:15:00.000Z",
+      "end": "2023-01-06T09:45:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "84bda594-aaf4-4fd3-8e73-8a8728e59d89",
+    "activity": {
+      "id": "44e64e9b-d0bc-42bd-b3b4-45fbd4795b84",
+      "name": "Meeting"
+    },
+    "duration": 1.75,
+    "name": "Daily",
+    "period": {
+      "start": "2023-01-03T08:15:00.000Z",
+      "end": "2023-01-03T10:00:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "cbc62548-2ae6-4b02-a00d-fe1e3e3b7e0a",
+    "activity": {
+      "id": "44e64e9b-d0bc-42bd-b3b4-45fbd4795b84",
+      "name": "Meeting"
+    },
+    "duration": 0.75,
+    "name": "Steven",
+    "period": {
+      "start": "2022-12-26T14:15:00.000Z",
+      "end": "2022-12-26T15:00:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "06f22d74-071a-4bc7-9ddc-aa2c106eb15b",
+    "activity": {
+      "id": "991e59dd-151d-4139-8334-13d70a8f7ed9",
+      "name": "Break"
+    },
+    "duration": 1.5,
+    "name": "Lunch",
+    "period": {
+      "start": "2023-01-13T11:30:00.000Z",
+      "end": "2023-01-13T13:00:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "b951bf46-65f9-4289-8867-54dea0713677",
+    "activity": {
+      "id": "a411fc4c-a601-413b-aefb-2433fcab6a00",
+      "name": "Fix"
+    },
+    "duration": 1,
+    "name": "Refactor updateProcessResults (double score)",
+    "period": {
+      "start": "2022-12-29T14:30:00.000Z",
+      "end": "2022-12-29T15:30:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "793f91db-dff8-44d5-a4b3-4537b620d24c",
+    "activity": {
+      "id": "44e64e9b-d0bc-42bd-b3b4-45fbd4795b84",
+      "name": "Meeting"
+    },
+    "duration": 0.25,
+    "name": "Compte rendu NPS Co création",
+    "period": {
+      "start": "2023-01-10T15:15:00.000Z",
+      "end": "2023-01-10T15:30:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "b3687a57-18e3-42ae-9910-9b18b4e4a3d8",
+    "activity": {
+      "id": "a411fc4c-a601-413b-aefb-2433fcab6a00",
+      "name": "Fix"
+    },
+    "duration": 0.5,
+    "name": "Empreinte interne games",
+    "period": {
+      "start": "2022-12-29T09:30:00.000Z",
+      "end": "2022-12-29T10:00:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "8863f694-f62f-482c-84ca-5d367d7dc841",
+    "activity": {
+      "id": "a411fc4c-a601-413b-aefb-2433fcab6a00",
+      "name": "Fix"
+    },
+    "duration": 0.5,
+    "name": "Double score",
+    "period": {
+      "start": "2022-12-29T13:00:00.000Z",
+      "end": "2022-12-29T13:30:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "e7fda881-08da-41eb-8212-78ad96a9b8b5",
+    "activity": {
+      "id": "44e64e9b-d0bc-42bd-b3b4-45fbd4795b84",
+      "name": "Meeting"
+    },
+    "duration": 2.25,
+    "name": "Antoine",
+    "period": {
+      "start": "2023-01-02T12:15:00.000Z",
+      "end": "2023-01-02T14:30:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "120df285-1cd7-40b3-ab72-ca7c96fa64b9",
+    "activity": {
+      "id": "44e64e9b-d0bc-42bd-b3b4-45fbd4795b84",
+      "name": "Meeting"
+    },
+    "duration": 0.5,
+    "name": "Kate",
+    "period": {
+      "start": "2023-01-05T15:00:00.000Z",
+      "end": "2023-01-05T15:30:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "0319894f-97ed-4839-879a-5f4f12578ae7",
+    "activity": {
+      "id": "224ee851-14a2-4b44-86c4-b347e74de615",
+      "name": "Process"
+    },
+    "duration": 0.25,
+    "name": "Code review",
+    "period": {
+      "start": "2023-01-06T16:15:00.000Z",
+      "end": "2023-01-06T16:30:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "c9f9a411-2f5f-4a0b-a7d8-49ce1a0697ff",
+    "activity": {
+      "id": "a411fc4c-a601-413b-aefb-2433fcab6a00",
+      "name": "Fix"
+    },
+    "duration": 0.75,
+    "name": "Newrelic",
+    "period": {
+      "start": "2022-12-28T10:30:00.000Z",
+      "end": "2022-12-28T11:15:00.000Z"
+    },
+    "project": {
+      "id": "b8624e75-e8ff-4ce8-bba8-c46f8d845073",
+      "name": "Setup NewRelic",
+      "status": "Done",
+      "storyPoints": 2
+    },
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "df588913-face-4670-908e-bbff395171ff",
+    "activity": {
+      "id": "a411fc4c-a601-413b-aefb-2433fcab6a00",
+      "name": "Fix"
+    },
+    "duration": 0.25,
+    "name": "Question builder",
+    "period": {
+      "start": "2022-12-28T14:00:00.000Z",
+      "end": "2022-12-28T14:15:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "a7074ee5-438d-4465-97ac-d9a4a4874043",
+    "activity": {
+      "id": "224ee851-14a2-4b44-86c4-b347e74de615",
+      "name": "Process"
+    },
+    "duration": 0.25,
+    "name": "Code review",
+    "period": {
+      "start": "2023-01-02T08:00:00.000Z",
+      "end": "2023-01-02T08:15:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "3a0fc266-a908-4262-a6d8-a7c79f6306d0",
+    "activity": {
+      "id": "880164a4-1434-4884-a3b9-84c5cdc6962b",
+      "name": "Development"
+    },
+    "duration": 2,
+    "name": "Improve pdf",
+    "period": {
+      "start": "2023-01-03T15:00:00.000Z",
+      "end": "2023-01-03T17:00:00.000Z"
+    },
+    "project": {
+      "id": "d7785c95-0c6c-49db-9612-eea5208a07c1",
+      "name": "Create PDF optimization",
+      "status": "Done",
+      "storyPoints": 5
+    },
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "6f1e407e-f120-4c03-84f8-cc7c50b6f0b8",
+    "activity": {
+      "id": "880164a4-1434-4884-a3b9-84c5cdc6962b",
+      "name": "Development"
+    },
+    "duration": 1.25,
+    "name": "Affectation auto de status",
+    "period": {
+      "start": "2023-01-11T15:45:00.000Z",
+      "end": "2023-01-11T17:00:00.000Z"
+    },
+    "project": {
+      "id": "0e215773-ad9a-468f-be3a-57eca395e41f",
+      "name": "Add UI for auto status selection",
+      "status": "Done",
+      "storyPoints": 2
+    },
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "478ebc61-28f5-4b35-b49f-83ab192d97f8",
+    "activity": {
+      "id": "44e64e9b-d0bc-42bd-b3b4-45fbd4795b84",
+      "name": "Meeting"
+    },
+    "duration": 0.75,
+    "name": "Daily",
+    "period": {
+      "start": "2023-01-05T08:15:00.000Z",
+      "end": "2023-01-05T09:00:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "84cf375f-c975-4910-ae7d-7dbc44d98890",
+    "activity": {
+      "id": "44e64e9b-d0bc-42bd-b3b4-45fbd4795b84",
+      "name": "Meeting"
+    },
+    "duration": 0.5,
+    "name": "Nadege",
+    "period": {
+      "start": "2023-01-04T13:45:00.000Z",
+      "end": "2023-01-04T14:15:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "a6ab196c-ee86-4f43-ae27-b4e5ac1cf540",
+    "activity": {
+      "id": "880164a4-1434-4884-a3b9-84c5cdc6962b",
+      "name": "Development"
+    },
+    "duration": 0.25,
+    "name": "Improve pdf",
+    "period": {
+      "start": "2022-12-30T13:45:00.000Z",
+      "end": "2022-12-30T14:00:00.000Z"
+    },
+    "project": {
+      "id": "d7785c95-0c6c-49db-9612-eea5208a07c1",
+      "name": "Create PDF optimization",
+      "status": "Done",
+      "storyPoints": 5
+    },
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "c1492c9a-06b3-4490-b245-0b419313f631",
+    "activity": {
+      "id": "44e64e9b-d0bc-42bd-b3b4-45fbd4795b84",
+      "name": "Meeting"
+    },
+    "duration": 0.5,
+    "name": "Antoine",
+    "period": {
+      "start": "2023-01-03T14:15:00.000Z",
+      "end": "2023-01-03T14:45:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "d5af537d-d646-41d3-abc8-2dd62c80be05",
+    "activity": {
+      "id": "224ee851-14a2-4b44-86c4-b347e74de615",
+      "name": "Process"
+    },
+    "duration": 0.25,
+    "name": "Code review",
+    "period": {
+      "start": "2022-12-28T08:00:00.000Z",
+      "end": "2022-12-28T08:15:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "ecbb6827-b202-4d4f-abf1-e5405bcfb83f",
+    "activity": {
+      "id": "44e64e9b-d0bc-42bd-b3b4-45fbd4795b84",
+      "name": "Meeting"
+    },
+    "duration": 1.25,
+    "name": "OKR Q1 2024",
+    "period": {
+      "start": "2023-01-10T09:00:00.000Z",
+      "end": "2023-01-10T10:15:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "235d2ea1-a7ac-49bc-9b9a-1c6d1a18dace",
+    "activity": {
+      "id": "44e64e9b-d0bc-42bd-b3b4-45fbd4795b84",
+      "name": "Meeting"
+    },
+    "duration": 0.5,
+    "name": "Help Laetitia",
+    "period": {
+      "start": "2023-01-04T15:00:00.000Z",
+      "end": "2023-01-04T15:30:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "ed87e0e0-07ee-4220-882b-76b13e236fbe",
+    "activity": {
+      "id": "880164a4-1434-4884-a3b9-84c5cdc6962b",
+      "name": "Development"
+    },
+    "duration": 1,
+    "name": "Workday",
+    "period": {
+      "start": "2023-01-05T12:00:00.000Z",
+      "end": "2023-01-05T13:00:00.000Z"
+    },
+    "project": {
+      "id": "7b4ae151-bc28-417f-8811-da4d32abcbc7",
+      "name": "Workday integration",
+      "status": "In progress",
+      "storyPoints": 3
+    },
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "6b3efd49-a8df-429f-ba33-fab637d54fbe",
+    "activity": {
+      "id": "44e64e9b-d0bc-42bd-b3b4-45fbd4795b84",
+      "name": "Meeting"
+    },
+    "duration": 1,
+    "name": "Daily",
+    "period": {
+      "start": "2022-12-30T08:15:00.000Z",
+      "end": "2022-12-30T09:15:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "22084688-f357-40e6-9e9b-3c9210956dd5",
+    "activity": {
+      "id": "a411fc4c-a601-413b-aefb-2433fcab6a00",
+      "name": "Fix"
+    },
+    "duration": 1.5,
+    "name": "Double score",
+    "period": {
+      "start": "2022-12-29T10:00:00.000Z",
+      "end": "2022-12-29T11:30:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "5c698998-e584-465b-9936-70d66e139f62",
+    "activity": {
+      "id": "44e64e9b-d0bc-42bd-b3b4-45fbd4795b84",
+      "name": "Meeting"
+    },
+    "duration": 0.25,
+    "name": "Bug scoring",
+    "period": {
+      "start": "2023-01-10T10:15:00.000Z",
+      "end": "2023-01-10T10:30:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "29e95cd0-d47c-470a-8646-19fd61759f5b",
+    "activity": {
+      "id": "880164a4-1434-4884-a3b9-84c5cdc6962b",
+      "name": "Development"
+    },
+    "duration": 1.25,
+    "name": "Improve pdf",
+    "period": {
+      "start": "2023-01-03T10:00:00.000Z",
+      "end": "2023-01-03T11:15:00.000Z"
+    },
+    "project": {
+      "id": "d7785c95-0c6c-49db-9612-eea5208a07c1",
+      "name": "Create PDF optimization",
+      "status": "Done",
+      "storyPoints": 5
+    },
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "4340165e-3754-4754-ba88-953db6997510",
+    "activity": {
+      "id": "991e59dd-151d-4139-8334-13d70a8f7ed9",
+      "name": "Break"
+    },
+    "duration": 0.75,
+    "name": "Break",
+    "period": {
+      "start": "2023-01-04T16:45:00.000Z",
+      "end": "2023-01-04T17:30:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "84cf47ca-8be2-4016-a5cf-355b107ed038",
+    "activity": {
+      "id": "a411fc4c-a601-413b-aefb-2433fcab6a00",
+      "name": "Fix"
+    },
+    "duration": 0.25,
+    "name": "Nadege delete campaign",
+    "period": {
+      "start": "2023-01-04T08:00:00.000Z",
+      "end": "2023-01-04T08:15:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "128783d4-ee00-4c76-8c68-52267a765b75",
+    "activity": {
+      "id": "991e59dd-151d-4139-8334-13d70a8f7ed9",
+      "name": "Break"
+    },
+    "duration": 1.5,
+    "name": "Lunch",
+    "period": {
+      "start": "2022-12-29T11:30:00.000Z",
+      "end": "2022-12-29T13:00:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "48ac31da-44b6-40be-9bee-5d5ada36e67c",
+    "activity": {
+      "id": "44e64e9b-d0bc-42bd-b3b4-45fbd4795b84",
+      "name": "Meeting"
+    },
+    "duration": 0.5,
+    "name": "Antoine",
+    "period": {
+      "start": "2023-01-04T09:30:00.000Z",
+      "end": "2023-01-04T10:00:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "d19dd8c9-233d-4d58-99bd-6452372b2bb9",
+    "activity": {
+      "id": "a411fc4c-a601-413b-aefb-2433fcab6a00",
+      "name": "Fix"
+    },
+    "duration": 0.25,
+    "name": "Investigation candidat disparu",
+    "period": {
+      "start": "2023-01-06T12:30:00.000Z",
+      "end": "2023-01-06T12:45:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "0e7f4124-ee7c-4185-8bc7-6693b0ccd0b8",
+    "activity": {
+      "id": "44e64e9b-d0bc-42bd-b3b4-45fbd4795b84",
+      "name": "Meeting"
+    },
+    "duration": 0.75,
+    "name": "Nadège",
+    "period": {
+      "start": "2023-01-12T09:15:00.000Z",
+      "end": "2023-01-12T10:00:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "bc3b6868-8608-4e77-89a9-dfe5535cb67f",
+    "activity": {
+      "id": "44e64e9b-d0bc-42bd-b3b4-45fbd4795b84",
+      "name": "Meeting"
+    },
+    "duration": 1.75,
+    "name": "Co-création",
+    "period": {
+      "start": "2023-01-12T13:00:00.000Z",
+      "end": "2023-01-12T14:45:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "436fcf70-734a-4e14-96de-3b6825ac1a00",
+    "activity": {
+      "id": "991e59dd-151d-4139-8334-13d70a8f7ed9",
+      "name": "Break"
+    },
+    "duration": 1.25,
+    "name": "Lunch",
+    "period": {
+      "start": "2023-01-06T11:15:00.000Z",
+      "end": "2023-01-06T12:30:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "668ce8b9-b39c-4eac-968d-caa2a1b50944",
+    "activity": {
+      "id": "880164a4-1434-4884-a3b9-84c5cdc6962b",
+      "name": "Development"
+    },
+    "duration": 1,
+    "name": "Affectation auto de status",
+    "period": {
+      "start": "2023-01-11T14:30:00.000Z",
+      "end": "2023-01-11T15:30:00.000Z"
+    },
+    "project": {
+      "id": "0e215773-ad9a-468f-be3a-57eca395e41f",
+      "name": "Add UI for auto status selection",
+      "status": "Done",
+      "storyPoints": 2
+    },
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "62f8c28c-b57f-49ea-848f-0729fa4bd475",
+    "activity": {
+      "id": "a411fc4c-a601-413b-aefb-2433fcab6a00",
+      "name": "Fix"
+    },
+    "duration": 0.25,
+    "name": "Deviens pro",
+    "period": {
+      "start": "2022-12-29T13:30:00.000Z",
+      "end": "2022-12-29T13:45:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "2243dd8d-38eb-4c61-90ab-47e0507b0a0c",
+    "activity": {
+      "id": "a411fc4c-a601-413b-aefb-2433fcab6a00",
+      "name": "Fix"
+    },
+    "duration": 0.5,
+    "name": "Broken process",
+    "period": {
+      "start": "2023-01-10T10:30:00.000Z",
+      "end": "2023-01-10T11:00:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "3071e8cc-7e0f-479b-a9ad-681c768cdc67",
+    "activity": {
+      "id": "991e59dd-151d-4139-8334-13d70a8f7ed9",
+      "name": "Break"
+    },
+    "duration": 1,
+    "name": "Lunch",
+    "period": {
+      "start": "2023-01-04T11:15:00.000Z",
+      "end": "2023-01-04T12:15:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "5ec6d82b-072d-4980-ad31-4a1ec2168226",
+    "activity": {
+      "id": "880164a4-1434-4884-a3b9-84c5cdc6962b",
+      "name": "Development"
+    },
+    "duration": 0.5,
+    "name": "Intégration d’application externe",
+    "period": {
+      "start": "2023-01-04T16:15:00.000Z",
+      "end": "2023-01-04T16:45:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "ad7b9641-432a-4977-b3d8-8ba17b5f88cb",
+    "activity": {
+      "id": "991e59dd-151d-4139-8334-13d70a8f7ed9",
+      "name": "Break"
+    },
+    "duration": 0.75,
+    "name": "Lunch",
+    "period": {
+      "start": "2023-01-11T12:00:00.000Z",
+      "end": "2023-01-11T12:45:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "bab0d111-2809-48d7-a0e9-519f954b08e4",
+    "activity": {
+      "id": "44e64e9b-d0bc-42bd-b3b4-45fbd4795b84",
+      "name": "Meeting"
+    },
+    "duration": 1.25,
+    "name": "OKR dev",
+    "period": {
+      "start": "2023-01-06T10:00:00.000Z",
+      "end": "2023-01-06T11:15:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "337eb59e-93bf-4a70-a367-2eaafe34855f",
+    "activity": {
+      "id": "880164a4-1434-4884-a3b9-84c5cdc6962b",
+      "name": "Development"
+    },
+    "duration": 1.5,
+    "name": "Pré-visualisation campagne",
+    "period": {
+      "start": "2023-01-09T15:45:00.000Z",
+      "end": "2023-01-09T17:15:00.000Z"
+    },
+    "project": {
+      "id": "d4c9e3b0-a33c-4773-a9bf-74737b5dd481",
+      "name": "Add preview in campaign creation form",
+      "status": "Done",
+      "storyPoints": 2
+    },
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "ad749022-7525-4d4d-8462-f0a184fef036",
+    "activity": {
+      "id": "880164a4-1434-4884-a3b9-84c5cdc6962b",
+      "name": "Development"
+    },
+    "duration": 1.25,
+    "name": "Newrelic Devops",
+    "period": {
+      "start": "2022-12-26T16:15:00.000Z",
+      "end": "2022-12-26T17:30:00.000Z"
+    },
+    "project": {
+      "id": "b8624e75-e8ff-4ce8-bba8-c46f8d845073",
+      "name": "Setup NewRelic",
+      "status": "Done",
+      "storyPoints": 2
+    },
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "ecf956ca-cf6e-4eaa-9195-74217278ea63",
+    "activity": {
+      "id": "880164a4-1434-4884-a3b9-84c5cdc6962b",
+      "name": "Development"
+    },
+    "duration": 0.25,
+    "name": "Auto Status Selection",
+    "period": {
+      "start": "2023-01-13T10:00:00.000Z",
+      "end": "2023-01-13T10:15:00.000Z"
+    },
+    "project": {
+      "id": "0e215773-ad9a-468f-be3a-57eca395e41f",
+      "name": "Add UI for auto status selection",
+      "status": "Done",
+      "storyPoints": 2
+    },
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "5213336c-667d-49e3-b0b4-c457653daf59",
+    "activity": {
+      "id": "44e64e9b-d0bc-42bd-b3b4-45fbd4795b84",
+      "name": "Meeting"
+    },
+    "duration": 0.75,
+    "name": "Estimation TT",
+    "period": {
+      "start": "2023-01-12T14:45:00.000Z",
+      "end": "2023-01-12T15:30:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "a4c0a752-3088-44a8-b22d-a260457587a5",
+    "activity": {
+      "id": "44e64e9b-d0bc-42bd-b3b4-45fbd4795b84",
+      "name": "Meeting"
+    },
+    "duration": 0.75,
+    "name": "David pitch",
+    "period": {
+      "start": "2023-01-10T13:30:00.000Z",
+      "end": "2023-01-10T14:15:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "cb995317-9240-4c52-852c-4f494e78cef2",
+    "activity": {
+      "id": "44e64e9b-d0bc-42bd-b3b4-45fbd4795b84",
+      "name": "Meeting"
+    },
+    "duration": 1,
+    "name": "Weekly tech",
+    "period": {
+      "start": "2022-12-30T14:00:00.000Z",
+      "end": "2022-12-30T15:00:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "6ffb2b40-5b6c-481f-836b-65504bdf13d9",
+    "activity": {
+      "id": "224ee851-14a2-4b44-86c4-b347e74de615",
+      "name": "Process"
+    },
+    "duration": 0.25,
+    "name": "Code review",
+    "period": {
+      "start": "2023-01-11T08:00:00.000Z",
+      "end": "2023-01-11T08:15:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "ef876a37-1734-4685-9373-f9a520f0e5f5",
+    "activity": {
+      "id": "a411fc4c-a601-413b-aefb-2433fcab6a00",
+      "name": "Fix"
+    },
+    "duration": 0.25,
+    "name": "Nadege delete campaign",
+    "period": {
+      "start": "2023-01-03T14:45:00.000Z",
+      "end": "2023-01-03T15:00:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "4f5e6848-7062-488a-b473-475da7c70dc6",
+    "activity": {
+      "id": "880164a4-1434-4884-a3b9-84c5cdc6962b",
+      "name": "Development"
+    },
+    "duration": 0.5,
+    "name": "Patch data externals",
+    "period": {
+      "start": "2023-01-13T13:30:00.000Z",
+      "end": "2023-01-13T14:00:00.000Z"
+    },
+    "project": null,
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "60da203a-1f2c-47ff-8951-3353b4d7e009",
+    "activity": {
+      "id": "880164a4-1434-4884-a3b9-84c5cdc6962b",
+      "name": "Development"
+    },
+    "duration": 1.5,
+    "name": "Workday",
+    "period": {
+      "start": "2023-01-05T15:30:00.000Z",
+      "end": "2023-01-05T17:00:00.000Z"
+    },
+    "project": {
+      "id": "7b4ae151-bc28-417f-8811-da4d32abcbc7",
+      "name": "Workday integration",
+      "status": "In progress",
+      "storyPoints": 3
+    },
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  },
+  {
+    "id": "eecbc54f-2d86-4ddb-a554-df67c7d9ce05",
+    "activity": {
+      "id": "21085e24-ec50-4fcf-a334-0bab9ec60a60",
+      "name": "Documentation"
+    },
+    "duration": 0.75,
+    "name": "Postman",
+    "period": {
+      "start": "2022-12-28T13:00:00.000Z",
+      "end": "2022-12-28T13:45:00.000Z"
+    },
+    "project": {
+      "id": "0cf3483f-7de4-4ed4-8aaa-b5b380453fe9",
+      "name": "Add Newman to CI",
+      "status": "Done",
+      "storyPoints": 3
+    },
+    "sprint": {
+      "id": "981db791-8fe7-4416-a66b-6a7bcb1c35ed",
+      "name": "Sprint 16",
+      "period": {
+        "start": "2022-12-26T00:00:00.000Z",
+        "end": "2023-01-13T00:00:00.000Z"
+      }
+    }
+  }
+]

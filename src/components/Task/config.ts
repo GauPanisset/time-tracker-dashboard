@@ -11,4 +11,8 @@ const backgroundColorByActivity = {
   [Activity.Specification]: 'bg-green-500',
 }
 
-export { backgroundColorByActivity }
+const height = 16
+const marginX = 1
+const marginY = 4
+
+export { backgroundColorByActivity, height, marginX, marginY }

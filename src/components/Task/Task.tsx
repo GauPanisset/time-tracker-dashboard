@@ -1,7 +1,8 @@
 import Tooltip from '@/components/Tooltip'
 import type { SerializedTask } from '@/types/task'
 
-import { backgroundColorByActivity } from './config'
+import { backgroundColorByActivity, height } from './config'
+import { getTaskWidth } from './helpers'
 
 type Props = SerializedTask
 
@@ -12,10 +13,13 @@ const Task: React.FunctionComponent<Props> = ({ activity, duration, name }) => {
   return (
     <Tooltip text={name}>
       <div
-        className={`my-1 h-4 border border-dark ${
+        className={`rounded border border-dark transition ${
           backgroundColorByActivity[activity.name]
         }`}
-        style={{ width: duration * 48 }}
+        style={{
+          height,
+          width: getTaskWidth(duration),
+        }}
       />
     </Tooltip>
   )

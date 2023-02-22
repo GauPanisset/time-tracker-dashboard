@@ -1,4 +1,3 @@
-// Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 import type { NextApiRequest, NextApiResponse } from 'next'
 
 import { TaskService } from '@/services/task'
@@ -23,8 +22,13 @@ const handler = async (req: NextApiRequest, res: NextApiResponse<Task[]>) => {
 
   switch (method) {
     case 'GET':
-      const tasks = await taskService.getTasksBySprint(sprintNumber)
-      res.status(200).json(tasks)
+      try {
+        const tasks = await taskService.getTasksBySprint(sprintNumber)
+        res.status(200).json(tasks)
+      } catch (error) {
+        console.error(error)
+        res.status(404).end(`No tasks found for sprint ${sprintNumber}`)
+      }
       break
     default:
       res.setHeader('Allow', ['GET'])

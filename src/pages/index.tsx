@@ -1,9 +1,9 @@
 import useSwr from 'swr'
+import React from 'react'
 
 import Calendar from '@/components/Calendar'
 import SprintPicker from '@/components/SprintPicker'
 import type { SerializedTask } from '@/types/task'
-import React from 'react'
 
 /**
  * Landing page of the application.
@@ -15,17 +15,13 @@ const Home = () => {
     `/api/sprint/${sprint}/tasks`
   )
 
-  if (isLoading) return <div>Loading...</div>
-
-  if (!data) return <div>Not data found...</div>
-
   return (
-    <div className="flex w-full gap-4">
-      <div className="w-1/6">
+    <div className="flex w-full flex-col gap-4 md:flex-row">
+      <div className="w-5/12 md:w-2/12">
         <SprintPicker value={sprint} onChange={setSprint} />
       </div>
-      <div className="w-4/6">
-        <Calendar tasks={data} />
+      <div className="w-full md:w-6/12">
+        <Calendar tasks={data} isLoading={isLoading} />
       </div>
     </div>
   )

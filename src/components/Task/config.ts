@@ -12,7 +12,7 @@ const backgroundColorByActivity = {
 }
 
 const height = 16
-const marginX = 1
+const marginX = 2
 const marginY = 4
 
 export { backgroundColorByActivity, height, marginX, marginY }

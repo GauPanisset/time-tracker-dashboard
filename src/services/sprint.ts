@@ -1,8 +1,10 @@
 import { isFullPage } from '@notionhq/client'
 
 import extract from '@/helpers/extract'
+import { isNotNull } from '@/helpers/isNotNull'
 import { CacheService } from '@/services/cache'
 import type { Sprint } from '@/types/sprint'
+import type { PageObjectResponse } from '@/types/notion'
 import { NotionService } from '@/services/notion'
 
 /**
@@ -16,6 +18,27 @@ class SprintService extends NotionService {
   constructor() {
     super()
     this.cacheService = new CacheService<Sprint>()
+  }
+
+  /**
+   * Retrieve the list of all Sprints.
+   */
+  public async getSprints(): Promise<Sprint[]> {
+    const response = await this.notion.databases.query({
+      database_id: SprintService.DATABASE_ID,
+    })
+
+    return response.results
+      .map((result, index) => {
+        if (!result || !isFullPage(result)) {
+          console.error(
+            `Result is not a full page. (${result} - index: ${index})`
+          )
+          return null
+        }
+        return this.createSprint(result)
+      })
+      .filter(isNotNull)
   }
 
   /**
@@ -37,20 +60,41 @@ class SprintService extends NotionService {
       if (!result || !isFullPage(result))
         throw new Error(`Result is not a full page.`)
 
-      const period = extract.period(result.properties, 'Period')
-
-      if (!period)
-        throw new Error(
-          `A Sprint must have a period, but missing for Sprint ${sprintNumber}`
-        )
-
-      return {
-        id: result.id,
-        name:
-          extract.name(result.properties, 'Name') ?? `Sprint ${sprintNumber}`,
-        period,
-      }
+      return this.createSprint(result)
     })
+  }
+
+  /**
+   * Reshape Notion results into Sprints.
+   * @param result notion results
+   */
+  private createSprint(result: PageObjectResponse): Sprint {
+    const period = extract.period(result.properties, 'Period')
+    if (!period)
+      throw new Error(
+        `A Sprint must have a period, but missing for Sprint ${result.id}`
+      )
+
+    const name = extract.name(result.properties, 'Name')
+    if (!name)
+      throw new Error(
+        `A Sprint must have a name, but missing for Sprint ${result.id}`
+      )
+
+    const match = name.match(/Sprint (?<number>[0-9]*)/)
+    const stringNumber = match?.groups?.number
+    if (!stringNumber)
+      throw new Error(
+        `A Sprint must have a name containing its number, but missing for Sprint ${result.id}`
+      )
+    const number = parseInt(stringNumber, 10)
+
+    return {
+      id: result.id,
+      name,
+      number,
+      period,
+    }
   }
 }
 

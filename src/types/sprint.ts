@@ -13,6 +13,7 @@ type SerializedSprint = Omit<Sprint, 'period'> & { period: SerializedPeriod }
 type Sprint = {
   id: string
   name: string
+  number: number
   period: Period
 }
 

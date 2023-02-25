@@ -25,7 +25,7 @@ const SprintPicker: React.FunctionComponent<Props> = ({ value, onChange }) => {
       </div>
       <div className="flex w-full items-center justify-between py-4 px-2">
         <button
-          className="flex h-8 w-8 items-center justify-center rounded-full hover:bg-light/20 disabled:bg-transparent disabled:opacity-40"
+          className="flex h-8 w-8 items-center justify-center rounded-full hover:bg-light/20 active:bg-light/30 disabled:bg-transparent disabled:opacity-40"
           disabled={value === minValue}
           onClick={() => {
             onChange(value - 1)
@@ -35,7 +35,7 @@ const SprintPicker: React.FunctionComponent<Props> = ({ value, onChange }) => {
         </button>
         <div className="text-3xl font-bold sm:text-6xl">{value}</div>
         <button
-          className="flex h-8 w-8 items-center justify-center rounded-full hover:bg-light/20 disabled:bg-transparent disabled:opacity-40"
+          className="flex h-8 w-8 items-center justify-center rounded-full hover:bg-light/20 active:bg-light/30 disabled:bg-transparent disabled:opacity-40"
           disabled={value === maxValue}
           onClick={() => {
             onChange(value + 1)

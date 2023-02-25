@@ -1,83 +1,14 @@
-import type { SerializedTask } from '@/types/task'
+import type { GroupedTasks, SerializedTask } from '@/types/task'
 
 import { height, marginX, marginY } from '@/components/Task/config'
 import { getTaskWidth } from '@/components/Task/helpers'
-
-import { GroupKey } from './types'
-import type { GroupedTasks, GroupByFunction } from './types'
-
-/**
- * Group tasks by activity.
- * @param tasks list of tasks to group
- * @returns record with the activity id as key and the list of tasks as value.
- */
-const groupByActivity: GroupByFunction = (tasks) => {
-  const groups: Record<string, SerializedTask[]> = {}
-  const labels: Record<string, string> = {}
-
-  for (const task of tasks) {
-    const groupId = task.activity.id
-    if (groupId in groups) groups[groupId].push(task)
-    else {
-      groups[groupId] = [task]
-      labels[groupId] = task.activity.name
-    }
-  }
-
-  return { groups, labels }
-}
-
-/**
- * Group tasks by day based on their start date.
- * @param tasks list of tasks to group
- * @returns record with the day number as key and the list of tasks as value.
- */
-const groupByDay: GroupByFunction = (tasks) => {
-  const groups: Record<string, SerializedTask[]> = {}
-  const labels: Record<string, string> = {}
-
-  for (const task of tasks) {
-    const groupId = String(
-      new Date(task.period.start).toLocaleDateString('en-US', {
-        day: '2-digit',
-        month: 'short',
-      })
-    )
-    if (groupId in groups) groups[groupId].push(task)
-    else {
-      groups[groupId] = [task]
-      labels[groupId] = groupId
-    }
-  }
-
-  return { groups, labels }
-}
-
-/**
- * Group tasks by project.
- * @param tasks list of tasks to group
- * @returns record with the project id as key and the list of tasks as value.
- */
-const groupByProject: GroupByFunction = (tasks) => {
-  const groups: Record<string, SerializedTask[]> = {}
-  const labels: Record<string, string> = {}
-
-  for (const task of tasks) {
-    const groupId = task.project?.id ?? 'no-id'
-    if (groupId in groups) groups[groupId].push(task)
-    else {
-      groups[groupId] = [task]
-      labels[groupId] = task.project?.name ?? ''
-    }
-  }
-
-  return { groups, labels }
-}
+import { GroupKey } from '@/enums/group'
+import { TaskGrouper } from '@/services/taskGrouper'
 
 const groupBy = {
-  [GroupKey.Activities]: groupByActivity,
-  [GroupKey.Days]: groupByDay,
-  [GroupKey.Projects]: groupByProject,
+  [GroupKey.Activities]: new TaskGrouper(GroupKey.Activities).group,
+  [GroupKey.Days]: new TaskGrouper(GroupKey.Days).group,
+  [GroupKey.Projects]: new TaskGrouper(GroupKey.Projects).group,
 }
 
 /**

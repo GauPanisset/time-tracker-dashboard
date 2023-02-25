@@ -22,4 +22,6 @@ type Task = {
   sprint: Sprint
 }
 
-export type { SerializedTask, Task }
+type GroupedTasks = Record<string, SerializedTask[]>
+
+export type { GroupedTasks, SerializedTask, Task }

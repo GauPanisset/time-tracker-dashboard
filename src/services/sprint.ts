@@ -11,7 +11,7 @@ import { NotionService } from '@/services/notion'
  * Service implementing methods relative to Sprints.
  */
 class SprintService extends NotionService {
-  private static DATABASE_ID = '10f1c40497b3411983f5e9bc6bd4df32'
+  private static DATABASE_ID = 'dcdc263e059c4f3aa2bf63c03cdf6dbc'
 
   private readonly cacheService: CacheService<Sprint>
 

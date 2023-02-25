@@ -1,4 +1,4 @@
-import { GroupKey } from '@/components/Calendar/types'
+import { GroupKey } from '@/enums/group'
 
 type Props = {
   isLoading: boolean

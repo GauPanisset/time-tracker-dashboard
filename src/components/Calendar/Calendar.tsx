@@ -3,7 +3,8 @@ import React from 'react'
 import CalendarButtons from '@/components/CalendarButtons'
 import Task from '@/components/Task'
 import { height, marginY } from '@/components/Task/config'
-import type { SerializedTask } from '@/types/task'
+import { GroupKey } from '@/enums/group'
+import type { GroupedTasks, SerializedTask } from '@/types/task'
 
 import {
   compareStartDate,
@@ -12,7 +13,6 @@ import {
   computeTasksPosition,
 } from './helpers'
 import loadingTasks from './loadingTasks.json'
-import { GroupedTasks, GroupKey } from './types'
 
 type Props = {
   /**
@@ -44,7 +44,7 @@ const Calendar: React.FunctionComponent<Props> = ({
   }
 
   return (
-    <div className="min-w-min rounded-xl border border-light/40 bg-mid/10 shadow-lg">
+    <div className="rounded-xl border border-light/40 bg-mid/10 shadow-lg">
       <div className="flex h-14 items-center justify-between rounded-t-xl border-light/40 bg-mid px-4">
         <p className="mr-4 text-base font-bold text-dark sm:text-3xl">Tasks</p>
         <CalendarButtons isLoading={isLoading} onClick={handleClick} />

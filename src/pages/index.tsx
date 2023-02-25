@@ -3,6 +3,7 @@ import React from 'react'
 
 import Calendar from '@/components/Calendar'
 import SprintPicker from '@/components/SprintPicker'
+import Summary from '@/components/Summary'
 import type { SerializedTask } from '@/types/task'
 
 /**
@@ -16,12 +17,15 @@ const Home = () => {
   )
 
   return (
-    <div className="flex w-full flex-col gap-4 md:flex-row">
-      <div className="w-5/12 md:w-2/12">
+    <div className="grid w-full grid-cols-12 flex-wrap gap-4">
+      <div className="col-span-6 md:col-span-2">
         <SprintPicker value={sprint} onChange={setSprint} />
       </div>
-      <div className="w-full md:w-6/12">
+      <div className="col-span-12 md:col-span-10">
         <Calendar tasks={data} isLoading={isLoading} />
+      </div>
+      <div className="col-start-1 col-end-13 md:col-start-3">
+        <Summary tasks={data} isLoading={isLoading} />
       </div>
     </div>
   )

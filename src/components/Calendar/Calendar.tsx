@@ -34,8 +34,8 @@ const Calendar: React.FunctionComponent<Props> = ({
 }) => {
   const [groupByKey, setGroupByKey] = React.useState<GroupKey>(GroupKey.Days)
 
-  const groupedTasks = isLoading
-    ? (loadingTasks as unknown as GroupedTasks)
+  const { groups: groupedTasks, labels } = isLoading
+    ? { groups: loadingTasks as unknown as GroupedTasks, labels: null }
     : groupBy[groupByKey](rawTasks.sort(compareStartDate))
   const tasks = computeTasksPosition(groupedTasks).sort(compareTaskIds)
 
@@ -51,24 +51,37 @@ const Calendar: React.FunctionComponent<Props> = ({
       </div>
       <div className="overflow-x-scroll">
         <div
-          className="relative m-8 overflow-y-visible transition-all"
+          className="m-8 flex overflow-y-visible transition-all"
           style={{
             height: Object.keys(groupedTasks).length * (height + marginY),
           }}
         >
-          {tasks.length ? (
-            tasks.map(({ position, ...task }) => (
+          <div className="mr-4 flex max-w-[33%] flex-col">
+            {Object.keys(groupedTasks).map((group) => (
               <div
-                className="absolute transition-all duration-500"
-                key={task.id}
-                style={{ top: position.y, left: position.x }}
+                className="overflow-hidden text-ellipsis whitespace-nowrap font-mono text-sm"
+                key={group}
+                style={{ height, marginBottom: marginY }}
               >
-                <Task {...task} isLoading={isLoading} />
+                {labels ? labels[group] : ''}
               </div>
-            ))
-          ) : (
-            <div>No data available...</div>
-          )}
+            ))}
+          </div>
+          <div className="relative">
+            {tasks.length ? (
+              tasks.map(({ position, ...task }) => (
+                <div
+                  className="absolute transition-all duration-500"
+                  key={task.id}
+                  style={{ top: position.y, left: position.x }}
+                >
+                  <Task {...task} isLoading={isLoading} />
+                </div>
+              ))
+            ) : (
+              <div>No data available...</div>
+            )}
+          </div>
         </div>
       </div>
     </div>

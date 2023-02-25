@@ -13,14 +13,18 @@ import type { GroupedTasks, GroupByFunction } from './types'
  */
 const groupByActivity: GroupByFunction = (tasks) => {
   const groups: Record<string, SerializedTask[]> = {}
+  const labels: Record<string, string> = {}
 
   for (const task of tasks) {
-    const taskActivityId = task.activity.id
-    if (taskActivityId in groups) groups[taskActivityId].push(task)
-    else groups[taskActivityId] = [task]
+    const groupId = task.activity.id
+    if (groupId in groups) groups[groupId].push(task)
+    else {
+      groups[groupId] = [task]
+      labels[groupId] = task.activity.name
+    }
   }
 
-  return groups
+  return { groups, labels }
 }
 
 /**
@@ -30,14 +34,23 @@ const groupByActivity: GroupByFunction = (tasks) => {
  */
 const groupByDay: GroupByFunction = (tasks) => {
   const groups: Record<string, SerializedTask[]> = {}
+  const labels: Record<string, string> = {}
 
   for (const task of tasks) {
-    const day = String(new Date(task.period.start).toLocaleDateString())
-    if (day in groups) groups[day].push(task)
-    else groups[day] = [task]
+    const groupId = String(
+      new Date(task.period.start).toLocaleDateString('en-US', {
+        day: '2-digit',
+        month: 'short',
+      })
+    )
+    if (groupId in groups) groups[groupId].push(task)
+    else {
+      groups[groupId] = [task]
+      labels[groupId] = groupId
+    }
   }
 
-  return groups
+  return { groups, labels }
 }
 
 /**
@@ -47,14 +60,18 @@ const groupByDay: GroupByFunction = (tasks) => {
  */
 const groupByProject: GroupByFunction = (tasks) => {
   const groups: Record<string, SerializedTask[]> = {}
+  const labels: Record<string, string> = {}
 
   for (const task of tasks) {
-    const taskProjectId = task.project?.id ?? 'no-id'
-    if (taskProjectId in groups) groups[taskProjectId].push(task)
-    else groups[taskProjectId] = [task]
+    const groupId = task.project?.id ?? 'no-id'
+    if (groupId in groups) groups[groupId].push(task)
+    else {
+      groups[groupId] = [task]
+      labels[groupId] = task.project?.name ?? ''
+    }
   }
 
-  return groups
+  return { groups, labels }
 }
 
 const groupBy = {

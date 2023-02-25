@@ -6,7 +6,10 @@ enum GroupKey {
   Projects = 'Projects',
 }
 
-type GroupByFunction = (tasks: SerializedTask[]) => GroupedTasks
+type GroupByFunction = (tasks: SerializedTask[]) => {
+  groups: GroupedTasks
+  labels: Record<string, string>
+}
 
 type GroupedTasks = Record<string, SerializedTask[]>
 

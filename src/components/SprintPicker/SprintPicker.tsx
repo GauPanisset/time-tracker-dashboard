@@ -11,12 +11,18 @@ type Props = { value: number; onChange: (sprint: number) => void }
  * Component displaying the sprint to display and two button to increase and decrease this number.
  */
 const SprintPicker: React.FunctionComponent<Props> = ({ value, onChange }) => {
-  const { data } = useSwr<SerializedSprint[]>(`/api/sprints`)
+  const { data, isLoading } = useSwr<SerializedSprint[]>(`/api/sprints`)
 
   const maxValue = React.useMemo(() => {
     if (!data || !data.length) return minValue
-    return Math.max(...data.map((sprint) => sprint?.number))
+    const maxValue = Math.max(...data.map((sprint) => sprint?.number))
+
+    return maxValue
   }, [data])
+
+  React.useEffect(() => {
+    onChange(maxValue)
+  }, [maxValue, onChange])
 
   return (
     <div className="flex flex-col items-center rounded-xl border border-light/40 bg-mid/10 shadow-lg">
@@ -33,7 +39,12 @@ const SprintPicker: React.FunctionComponent<Props> = ({ value, onChange }) => {
         >
           <div className="h-3 w-3 translate-x-1/4 rotate-45 border-l-2 border-b-2" />
         </button>
-        <div className="text-3xl font-bold md:text-6xl">{value}</div>
+        {isLoading ? (
+          <div className="h-16 w-16 animate-pulse rounded bg-gray-500" />
+        ) : (
+          <div className="text-3xl font-bold md:text-6xl">{value}</div>
+        )}
+
         <button
           className="flex h-8 w-8 items-center justify-center rounded-full hover:bg-light/20 active:bg-light/30 disabled:bg-transparent disabled:opacity-40"
           disabled={value === maxValue}

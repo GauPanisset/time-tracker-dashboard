@@ -12,7 +12,7 @@ import type { Task } from '@/types/task'
  * Service implementing methods relative to Tasks.
  */
 class TaskService extends NotionService {
-  private static DATABASE_ID = 'bcf348d1d13a445d88bb3899f8f89b7a'
+  private static DATABASE_ID = process.env.TASK_DATABASE_ID ?? ''
 
   private readonly activityService: ActivityService
   private readonly projectService: ProjectService

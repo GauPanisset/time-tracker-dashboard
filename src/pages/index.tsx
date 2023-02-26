@@ -22,10 +22,10 @@ const Home = () => {
         <SprintPicker value={sprint} onChange={setSprint} />
       </div>
       <div className="col-span-12 md:col-span-10">
-        <Calendar tasks={data} isLoading={isLoading} />
+        <Summary tasks={data} isLoading={isLoading} />
       </div>
       <div className="col-start-1 col-end-13 md:col-start-3">
-        <Summary tasks={data} isLoading={isLoading} />
+        <Calendar tasks={data} isLoading={isLoading} />
       </div>
     </div>
   )

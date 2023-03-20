@@ -3,8 +3,6 @@ import useSwr from 'swr'
 import type { SerializedSprint } from '@/types/sprint'
 import React from 'react'
 
-const minValue = 1
-
 type Props = { value: number; onChange: (sprint: number) => void }
 
 /**
@@ -13,13 +11,16 @@ type Props = { value: number; onChange: (sprint: number) => void }
 const SprintPicker: React.FunctionComponent<Props> = ({ value, onChange }) => {
   const { data, isLoading } = useSwr<SerializedSprint[]>(`/api/sprints`)
 
-  const maxValue = React.useMemo(() => {
-    if (!data || !data.length) return minValue
-    const maxValue = Math.max(...data.map((sprint) => sprint?.number))
+  const [maxValue, minValue] = React.useMemo(() => {
+    if (!data || !data.length) return [1, 1]
+    const sprintNumbers = data.map((sprint) => sprint?.number)
 
-    return maxValue
+    return [Math.max(...sprintNumbers), Math.min(...sprintNumbers)]
   }, [data])
 
+  /**
+   * Set the current sprint to the last one.
+   */
   React.useEffect(() => {
     onChange(maxValue)
   }, [maxValue, onChange])

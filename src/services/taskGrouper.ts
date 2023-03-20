@@ -34,7 +34,7 @@ class TaskGrouper {
     const labels: Record<string, string> = {}
 
     for (const task of tasks) {
-      const groupId = task.activity.id
+      const groupId = task.activity.name
       if (groupId in groups) groups[groupId].push(task)
       else {
         groups[groupId] = [task]

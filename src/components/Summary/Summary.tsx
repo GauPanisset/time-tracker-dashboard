@@ -1,5 +1,5 @@
 import { backgroundColorByActivity } from '@/components/Task/config'
-import { isActivity } from '@/enums/activity'
+import { Activity, isActivity } from '@/enums/activity'
 import { GroupKey } from '@/enums/group'
 import { TaskGrouper } from '@/services/taskGrouper'
 import type { SerializedTask } from '@/types/task'
@@ -26,8 +26,29 @@ const Summary: React.FunctionComponent<Props> = ({ isLoading, tasks }) => {
   )
 
   const durationByActivities = sumGroupDuration(tasksByActivities)
-  const durationByProjects = sumGroupDuration(tasksByProjects)
-  const activitiesPart = computeGroupDistribution(durationByActivities)
+  /**
+   * As breaks are not linked to any project, it is needed to removing them to compute
+   * the real time spent on tasks without project.
+   */
+  const tasksByProjectWithoutBreak = Object.fromEntries(
+    Object.entries(tasksByProjects).map(([project, tasks]) => [
+      project,
+      tasks.filter((task) => task.activity.name !== Activity.Break),
+    ])
+  )
+  const durationByProjects = sumGroupDuration(tasksByProjectWithoutBreak)
+  const {
+    /**
+     * This pattern is used to remove the Break activity, in order to compute the parts
+     * of worked activities.
+     */
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
+    [Activity.Break]: breakDuration,
+    ...durationByActivitiesWithoutBreak
+  } = durationByActivities
+  const activitiesPart = computeGroupDistribution(
+    durationByActivitiesWithoutBreak
+  )
   const projectsPart = computeGroupDistribution(durationByProjects)
 
   const loadingContent = Array.from({ length: 4 })
@@ -59,6 +80,7 @@ const Summary: React.FunctionComponent<Props> = ({ isLoading, tasks }) => {
             : sortGroupKeysByDuration(durationByActivities).map((group) => {
                 const activity = activities[group]
                 const duration = durationByActivities[group]
+                const part = activitiesPart[group]
                 return (
                   <div
                     key={group}
@@ -73,7 +95,10 @@ const Summary: React.FunctionComponent<Props> = ({ isLoading, tasks }) => {
                     />
                     <div className="flex-1 font-medium">{activity}</div>
                     <div className="w-2/12 text-light">{`${duration}`}</div>
-                    <div className="w-2/12 text-light/50">{`(${activitiesPart[group]}%)`}</div>
+
+                    <div className="w-2/12 text-light/50">
+                      {part !== undefined ? `(${part}%)` : null}
+                    </div>
                   </div>
                 )
               })}

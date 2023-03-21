@@ -66,8 +66,8 @@ const Summary: React.FunctionComponent<Props> = ({ isLoading, tasks }) => {
     ))
 
   return (
-    <div className="rounded-xl border border-light/40 bg-mid/10 shadow-lg">
-      <div className="flex h-14 items-center rounded-t-xl border-light/40 bg-mid px-4">
+    <div className="overflow-hidden rounded-xl border border-light/40 bg-mid/10 shadow-lg">
+      <div className="flex items-center bg-mid px-4 py-2">
         <p className="mr-4 text-base font-bold text-dark sm:text-3xl">
           Hours spent
         </p>

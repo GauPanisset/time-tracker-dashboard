@@ -5,7 +5,11 @@ import { backgroundColorByActivity, height } from './config'
 import { getTaskWidth } from './helpers'
 import LoadingTask from './LoadingTask'
 
-type Props = SerializedTask & { isLoading: boolean }
+type Props = SerializedTask & {
+  isHighlighted?: boolean
+  isLoading?: boolean
+  isMinimized?: boolean
+}
 
 /**
  * Component displaying a task in the Calendar.
@@ -13,7 +17,9 @@ type Props = SerializedTask & { isLoading: boolean }
 const Task: React.FunctionComponent<Props> = ({
   activity,
   duration,
+  isHighlighted,
   isLoading,
+  isMinimized,
   name,
 }) => {
   if (isLoading)
@@ -22,8 +28,10 @@ const Task: React.FunctionComponent<Props> = ({
   return (
     <Tooltip text={name}>
       <div
-        className={`rounded transition ${
+        className={`rounded transition duration-500 ${
           backgroundColorByActivity[activity.name]
+        } ${isHighlighted ? 'shadow shadow-dark' : ''} ${
+          isMinimized ? 'opacity-20' : ''
         }`}
         style={{
           height,

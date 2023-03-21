@@ -5,6 +5,10 @@ import { getTaskWidth } from '@/components/Task/helpers'
 import { GroupKey } from '@/enums/group'
 import { TaskGrouper } from '@/services/taskGrouper'
 
+type PositionTask = SerializedTask & {
+  position: { x: number; y: number }
+}
+
 const groupBy = {
   [GroupKey.Activities]: new TaskGrouper(GroupKey.Activities).group,
   [GroupKey.Days]: new TaskGrouper(GroupKey.Days).group,
@@ -41,12 +45,8 @@ const compareTaskIds = (taskA: SerializedTask, taskB: SerializedTask) => {
  * @param groupedTasks all tasks grouped
  * @returns a list of tasks with their position in the calendar
  */
-const computeTasksPosition = (
-  groupedTasks: GroupedTasks
-): (SerializedTask & { position: { x: number; y: number } })[] => {
-  const positionedTasks: (SerializedTask & {
-    position: { x: number; y: number }
-  })[] = []
+const computeTasksPosition = (groupedTasks: GroupedTasks): PositionTask[] => {
+  const positionedTasks: PositionTask[] = []
 
   const groups = Object.values(groupedTasks)
 

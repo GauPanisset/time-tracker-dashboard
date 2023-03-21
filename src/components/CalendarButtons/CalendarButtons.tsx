@@ -10,9 +10,9 @@ const CalendarButtons: React.FunctionComponent<Props> = ({
   onClick,
 }) => {
   return (
-    <div className="inline-flex rounded-md shadow-sm" role="group">
+    <div className="inline-flex rounded-lg shadow-sm" role="group">
       <button
-        className="rounded-l-lg border border-light/40 bg-dark px-4 py-2 text-sm font-medium text-light/90 hover:bg-dark/80 hover:text-light active:bg-dark/90 disabled:border-light/10 disabled:bg-dark/20 disabled:text-light/40"
+        className="rounded-l-lg border border-light/40 bg-dark px-4 py-2 font-medium text-light/90 hover:bg-dark/80 hover:text-light active:bg-dark/90 disabled:border-light/10 disabled:bg-dark/20 disabled:text-light/40"
         disabled={isLoading}
         name="days"
         onClick={() => onClick(GroupKey.Days)}
@@ -21,7 +21,7 @@ const CalendarButtons: React.FunctionComponent<Props> = ({
         Days
       </button>
       <button
-        className="border-y border-light/40 bg-dark px-4 py-2 text-sm font-medium text-light/90 hover:bg-dark/80 hover:text-light active:bg-dark/90 disabled:border-light/10 disabled:bg-dark/20 disabled:text-light/40"
+        className="border-y border-light/40 bg-dark px-4 py-2 font-medium text-light/90 hover:bg-dark/80 hover:text-light active:bg-dark/90 disabled:border-light/10 disabled:bg-dark/20 disabled:text-light/40"
         disabled={isLoading}
         name="activities"
         onClick={() => onClick(GroupKey.Activities)}
@@ -30,7 +30,7 @@ const CalendarButtons: React.FunctionComponent<Props> = ({
         Activities
       </button>
       <button
-        className="rounded-r-md border border-light/40 bg-dark px-4 py-2 text-sm font-medium text-light/90 hover:bg-dark/80 hover:text-light active:bg-dark/90 disabled:border-light/10 disabled:bg-dark/20 disabled:text-light/40"
+        className="rounded-r-md border border-light/40 bg-dark px-4 py-2 font-medium text-light/90 hover:bg-dark/80 hover:text-light active:bg-dark/90 disabled:border-light/10 disabled:bg-dark/20 disabled:text-light/40"
         disabled={isLoading}
         name="projects"
         onClick={() => onClick(GroupKey.Projects)}

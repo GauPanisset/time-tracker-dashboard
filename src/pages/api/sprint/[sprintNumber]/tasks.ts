@@ -24,7 +24,7 @@ const handler = async (req: NextApiRequest, res: NextApiResponse<Task[]>) => {
     case 'GET':
       try {
         const tasks = await taskService.getTasksBySprint(sprintNumber)
-        res.status(200).json(tasks)
+        res.status(200).json(tasks) // as unknown as Task[])
       } catch (error) {
         console.error(error)
         res.status(404).end(`No tasks found for sprint ${sprintNumber}`)

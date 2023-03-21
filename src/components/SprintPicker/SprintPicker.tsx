@@ -26,8 +26,8 @@ const SprintPicker: React.FunctionComponent<Props> = ({ value, onChange }) => {
   }, [maxValue, onChange])
 
   return (
-    <div className="flex flex-col items-center rounded-xl border border-light/40 bg-mid/10 shadow-lg">
-      <div className="flex h-14 w-full items-center justify-center rounded-t-xl border-light/40 bg-mid px-2">
+    <div className="flex flex-col items-center overflow-hidden rounded-xl border border-light/40 bg-mid/10 shadow-lg">
+      <div className="flex w-full items-center justify-center bg-mid px-4 py-2">
         <p className="text-base font-bold text-dark sm:text-3xl">Sprint</p>
       </div>
       <div className="flex w-full items-center justify-between py-4 px-2">
